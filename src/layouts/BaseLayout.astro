@@ -3,6 +3,10 @@ import Header from "../components/Header.astro";
 import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+interface Props {
+  pageTitle: string;
+  description: string;
+}
 const { pageTitle, description } = Astro.props;
 ---
 
@@ -36,7 +40,6 @@ const { pageTitle, description } = Astro.props;
     <div class="container">
       <main>
         <h1>{pageTitle}</h1>
-
         <slot />
       </main>
     </div>

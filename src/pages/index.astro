@@ -1,13 +1,13 @@
 ---
 const pageTitle = "Home";
-const tdescription = "A test description";
+const description = "A test description";
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<BaseLayout pageTitle={pageTitle} description={tdescription}>
+<BaseLayout pageTitle={pageTitle} description={description}>
   <p>
     <strong>
       Need a website for academic project, small business or sub-brand? Don't
@@ -58,8 +58,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </div>
   <h2>Find out more</h2>
   <p>
-    See the <a href="how-help">How I can help</a> page to see what I can do for you,
-    and for prices.
+    See the <a href="/how-help/">How I can help</a> page to see what I can do for
+    you, and for prices.
   </p>
   <p>
     I've put some <a href="/advice/">advice pages</a> together to help you work out
@@ -67,6 +67,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     project, and what to watch out for working with agencies (as I have!).
   </p>
   <p>
-    The <a href="about">About page</a> tells you more about my background and experience.
+    The <a href="/about/">About page</a> tells you more about my background and experience.
   </p>
 </BaseLayout>
