@@ -1,0 +1,404 @@
+/* See https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.4;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+:root {
+  --padding: 1.5rem;
+  --padding-small: 1rem;
+  --font-size: 1.1rem;
+  --font-size-small: 1rem;
+  --color-black: #333;
+  --color-white: #fefefe;
+  --color-dark-green: #4b6b77;
+  --color-yellow: #edc954;
+  --color-link-blue: #069;
+  --color-grey: #777;
+  --color-light: #efefef;
+  --color-text: var(--color-black);
+  --color-text-grey: var(--color-grey);
+  --color-background: var(--color-white);
+  --color-code-light-grey: #cacbd1;
+  --color-code-comment: #a9aaad;
+  --font-family-sans: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    Courier, monospace;
+}
+
+/*
+* Site-specific styles
+* ====================
+*/
+
+html {
+  font-family: "Nunito Sans";
+  color: var(--color-text);
+  background: var(--color-background);
+  font-size: 100%;
+}
+
+body {
+  padding: 0;
+  font-size: var(--font-size);
+}
+
+.container {
+  max-width: 55rem;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 1.5rem;
+}
+
+/* headings */
+header {
+  margin: 1.75rem 0 1.25rem;
+
+  div a {
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: var(--color-dark-green);
+    font-size: 2.25rem;
+    line-height: 1;
+  }
+}
+
+.strapline {
+  margin-top: 0.25rem;
+  color: var(--color-black);
+}
+
+p,
+div,
+ul {
+  margin: 0 0 1rem;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  color: var(--color-dark-green);
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+h2 + p {
+  margin-top: 0.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0 0.25rem;
+}
+
+h4 {
+  margin: 0.25rem 0 0.5rem;
+}
+
+p + ul {
+  margin-top: -0.5rem;
+}
+
+ul ul {
+  margin: 0.25rem 0 0;
+  padding: 0 0 0 1rem;
+}
+
+li {
+  padding: 0 0 0.25rem;
+}
+
+a {
+  color: var(--color-link-blue);
+}
+
+nav {
+  background: var(--color-dark-green);
+
+  ul {
+    padding: 0;
+    margin: 0 0 0 -15px;
+  }
+
+  li {
+    display: inline-block;
+    padding: 5px 15px;
+  }
+}
+
+main {
+  margin: 3rem 0;
+}
+
+footer {
+  background: var(--color-dark-green);
+  margin: 5rem 0 0;
+  padding: 0 0 4rem;
+  color: var(--color-white);
+}
+
+.tinted h2 {
+  margin-top: 0;
+}
+
+figcaption {
+  font-size: var(--font-size-small);
+  text-align: center;
+  padding: 0.5rem 0 0;
+  background: #dfeaea;
+}
+
+.white-links {
+  a:link,
+  a:visited {
+    color: var(--color-white);
+    text-decoration: none;
+    transition: color 0.2s ease-out;
+  }
+
+  a:hover {
+    color: var(--color-yellow);
+  }
+
+  .active a {
+    color: var(--color-yellow);
+  }
+}
+
+/* Utility styles */
+.text-small {
+  font-size: calc(var(--font-size) * 0.8);
+}
+
+.text-large {
+  font-size: calc(var(--font-size) * 1.2);
+}
+
+.text-x-large {
+  font-size: calc(var(--font-size) * 1.4);
+}
+
+.text-primary {
+  color: var(--color-dark-green);
+}
+
+.bordered {
+  border: 10px solid #dfeaea;
+  margin-top: 2rem;
+}
+
+.tinted {
+  background: #dfeaea;
+  padding: var(--padding);
+  margin-top: 2rem;
+}
+
+.highlighted {
+  border: 2px solid var(--color-yellow);
+  border-radius: 10px;
+  padding: var(--padding);
+  margin-top: 2rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-y-0,
+.p-y-0 li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.p-y-3 li {
+  padding-bottom: 0.75rem;
+}
+
+.p-r-0 {
+  padding-right: 0;
+}
+
+.float-container {
+  display: flow-root;
+}
+
+.float-right {
+  float: right;
+  margin-left: var(--padding);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.invisible {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+}
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 4px;
+  margin-bottom: 8px;
+  background-color: var(--color-dark-green);
+}
+
+.white-links {
+  display: none;
+}
+
+.white-links div {
+  background: var(--color-dark-green);
+}
+
+.white-links a {
+  display: block;
+}
+
+.expanded {
+  display: unset;
+}
+
+@media screen and (min-width: 636px) {
+  .white-links {
+    display: block;
+    position: static;
+  }
+
+  .white-links a {
+    display: inline-block;
+  }
+  .hamburger {
+    display: none;
+  }
+}
