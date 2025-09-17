@@ -1,15 +1,33 @@
 ---
-import Hamburger from './Hamburger.astro';
+import Hamburger from "./Hamburger.astro";
+const { pathname } = Astro.url;
 ---
+
 <Hamburger />
 <nav class="white-links">
-      <div class="container">
-      
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/how-help/">How I can help</a></li>
-          <li><a href="/advice/">Advice</a></li>
-          <li><a href="/about/">About</a></li>
-        </ul>
-      </div>
-    </nav>
+  <div class="container">
+    <ul>
+      <li>
+        <a aria-current={pathname === "/" ? "page" : "false"} href="/">Home</a>
+      </li>
+      <li>
+        <a
+          aria-current={pathname === "/how-help/" ? "page" : "false"}
+          href="/how-help/">How I can help</a
+        >
+      </li>
+      <li>
+        <a
+          aria-current={pathname === "/advice/" ? "page" : "false"}
+          href="/advice/">Advice</a
+        >
+      </li>
+      <li>
+        <a
+          aria-current={pathname === "/about/" ? "page" : "false"}
+          href="/about/">About</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>

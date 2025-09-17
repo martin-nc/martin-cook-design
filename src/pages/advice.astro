@@ -1,0 +1,32 @@
+---
+const pageTitle = "Advice";
+const description =
+  "Some tips about planning and running a website, and working with digital agencies";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Advice from "../components/Advice.astro";
+import { getCollection } from "astro:content";
+const allAdvice = (await getCollection("advice")).sort(
+  (a, b) => a.data.order - b.data.order
+);
+---
+
+<BaseLayout pageTitle={pageTitle} description={description}>
+  <p>
+    Here are some tips about planning and running websites and applications, and
+    working with agencies.
+  </p>
+  <ul>
+    {
+      allAdvice.map((post: any) => (
+        <Advice
+          url={`/advice/${post.id}/`}
+          title={post.data.title}
+          order={post.data.order}
+        />
+      ))
+    }
+  </ul>
+  <!-- <script data-posts={allAdvice}>
+    console.log(this.data.posts);
+  </script> -->
+</BaseLayout>

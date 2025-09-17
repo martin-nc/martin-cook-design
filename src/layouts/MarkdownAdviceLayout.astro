@@ -1,0 +1,9 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout pageTitle={frontmatter.title}>
+  <slot />
+  <p class="mt-4 align-right"><a href="/advice">Back to Advice</a></p>
+</BaseLayout>

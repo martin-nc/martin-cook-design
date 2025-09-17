@@ -80,18 +80,18 @@ h6 {
   --padding-small: 1rem;
   --font-size: 1.1rem;
   --font-size-small: 1rem;
-  --color-black: #333;
-  --color-white: #fefefe;
-  --color-dark-green: #4b6b77;
-  --color-yellow: #edc954;
-  --color-link-blue: #069;
-  --color-grey: #777;
-  --color-light: #efefef;
-  --color-text: var(--color-black);
-  --color-text-grey: var(--color-grey);
-  --color-background: var(--color-white);
-  --color-code-light-grey: #cacbd1;
-  --color-code-comment: #a9aaad;
+  --black: #333;
+  --white: #fefefe;
+  --dark-green: #4b6b77;
+  --yellow: #edc954;
+  --link-blue: #069;
+  --grey: #777;
+  --light: #efefef;
+  --text: var(--black);
+  --text-grey: var(--grey);
+  --background: var(--white);
+  --code-light-grey: #cacbd1;
+  --code-comment: #a9aaad;
   --font-family-sans: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
@@ -105,8 +105,8 @@ h6 {
 
 html {
   font-family: "Nunito Sans";
-  color: var(--color-text);
-  background: var(--color-background);
+  color: var(--text);
+  background: var(--background);
   font-size: 100%;
 }
 
@@ -131,7 +131,7 @@ header {
     font-weight: 500;
     font-style: normal;
     text-decoration: none;
-    color: var(--color-dark-green);
+    color: var(--dark-green);
     font-size: 2.25rem;
     line-height: 1;
   }
@@ -139,7 +139,7 @@ header {
 
 .strapline {
   margin-top: 0.25rem;
-  color: var(--color-black);
+  color: var(--black);
 }
 
 p,
@@ -150,8 +150,10 @@ ul {
 
 h1,
 h2 {
-  font-weight: normal;
-  color: var(--color-dark-green);
+  font-weight: 500;
+  color: var(--dark-green);
+  font-family: "Red Hat Display", sans-serif;
+  letter-spacing: 0.03rem;
 }
 
 h1 {
@@ -167,7 +169,7 @@ h2 + p {
 }
 
 h3 {
-  margin: 0.5rem 0 0.25rem;
+  margin: 0.5rem 0;
 }
 
 h4 {
@@ -188,11 +190,11 @@ li {
 }
 
 a {
-  color: var(--color-link-blue);
+  color: var(--link-blue);
 }
 
 nav {
-  background: var(--color-dark-green);
+  background: var(--dark-green);
 
   ul {
     padding: 0;
@@ -201,7 +203,13 @@ nav {
 
   li {
     display: inline-block;
-    padding: 5px 15px;
+    padding: 8px 15px;
+  }
+}
+
+footer {
+  nav li {
+    padding: 0 15px 5px;
   }
 }
 
@@ -210,10 +218,10 @@ main {
 }
 
 footer {
-  background: var(--color-dark-green);
+  background: var(--dark-green);
   margin: 5rem 0 0;
   padding: 0 0 4rem;
-  color: var(--color-white);
+  color: var(--white);
 }
 
 .tinted h2 {
@@ -230,17 +238,17 @@ figcaption {
 .white-links {
   a:link,
   a:visited {
-    color: var(--color-white);
+    color: var(--white);
     text-decoration: none;
     transition: color 0.2s ease-out;
   }
 
   a:hover {
-    color: var(--color-yellow);
+    color: var(--yellow);
   }
 
-  .active a {
-    color: var(--color-yellow);
+  a[aria-current="page"] {
+    color: var(--yellow);
   }
 }
 
@@ -258,7 +266,7 @@ figcaption {
 }
 
 .text-primary {
-  color: var(--color-dark-green);
+  color: var(--dark-green);
 }
 
 .bordered {
@@ -273,7 +281,7 @@ figcaption {
 }
 
 .highlighted {
-  border: 2px solid var(--color-yellow);
+  border: 2px solid var(--yellow);
   border-radius: 10px;
   padding: var(--padding);
   margin-top: 2rem;
@@ -370,7 +378,7 @@ figcaption {
   width: 40px;
   height: 4px;
   margin-bottom: 8px;
-  background-color: var(--color-dark-green);
+  background-color: var(--dark-green);
 }
 
 .white-links {
@@ -378,7 +386,7 @@ figcaption {
 }
 
 .white-links div {
-  background: var(--color-dark-green);
+  background: var(--dark-green);
 }
 
 .white-links a {

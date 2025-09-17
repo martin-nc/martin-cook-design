@@ -1,10 +1,9 @@
 ---
 const pageTitle = "Home";
 const description = "A test description";
+import { Image } from "astro:assets";
+import mugShot from "../assets/me2.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
@@ -38,7 +37,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </p>
   <div class="tinted float-container">
     <figure class="float-right">
-      <img src="images/me2.jpg" alt="A photo of me" width="200" />
+      <Image
+        src={mugShot}
+        alt="A photo of me"
+        layout="constrained"
+        width={225}
+      />
       <figcaption>Me in 2025</figcaption>
     </figure>
     <h2>Contact</h2>
