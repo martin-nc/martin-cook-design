@@ -7,6 +7,8 @@ image:
   alt: "The Astro logo on a dark background with a pink glow."
 ---
 
+Change title to "Start with simple questions"?
+
 This is the most overlooked step in website development. You can have the greatest graphic designers and technical people working on your site, but that won’t make your site good. What will make your site good is your ability to understand why your site exists and how it helps the site users. Here are four questions to help you create a better site:
 
 1. What do you want the site to do for you?

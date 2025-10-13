@@ -83,9 +83,10 @@ h6 {
   --black: #333;
   --white: #fefefe;
   --dark-green: #4b6b77;
+  --light-green: #dfeaea;
   --yellow: #edc954;
   --link-blue: #069;
-  --grey: #777;
+  --grey: #555;
   --light: #efefef;
   --text: var(--black);
   --text-grey: var(--grey);
@@ -125,26 +126,28 @@ body {
 /* headings */
 header {
   margin: 1.75rem 0 1.25rem;
+  text-align: center;
 
   div a {
     font-family: "Red Hat Display", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
     text-decoration: none;
     color: var(--dark-green);
-    font-size: 2.25rem;
+    font-size: 2.75rem;
     line-height: 1;
   }
 }
 
 .strapline {
   margin-top: 0.25rem;
-  color: var(--black);
+  color: var(--grey);
 }
 
 p,
 div,
-ul {
+ul,
+ol {
   margin: 0 0 1rem;
 }
 
@@ -164,7 +167,13 @@ h2 {
   margin-top: 2rem;
 }
 
-h2 + p {
+.highlighted h2,
+.tinted h2 {
+  margin: 0 0 1rem;
+}
+
+h2 + p,
+h2 + ul {
   margin-top: 0.5rem;
 }
 
@@ -174,6 +183,10 @@ h3 {
 
 h4 {
   margin: 0.25rem 0 0.5rem;
+}
+
+.tinted + h3 {
+  margin-top: 2rem;
 }
 
 p + ul {
@@ -186,7 +199,7 @@ ul ul {
 }
 
 li {
-  padding: 0 0 0.25rem;
+  padding: 0 0 0.75rem;
 }
 
 a {
@@ -195,7 +208,7 @@ a {
 
 nav {
   background: var(--dark-green);
-
+  text-align: center;
   ul {
     padding: 0;
     margin: 0 0 0 -15px;
@@ -203,7 +216,7 @@ nav {
 
   li {
     display: inline-block;
-    padding: 8px 15px;
+    padding: 10px 15px;
   }
 }
 
@@ -224,15 +237,19 @@ footer {
   color: var(--white);
 }
 
-.tinted h2 {
-  margin-top: 0;
-}
-
 figcaption {
   font-size: var(--font-size-small);
   text-align: center;
   padding: 0.5rem 0 0;
   background: #dfeaea;
+}
+
+hr {
+  height: 2px;
+  background-color: var(--light-green);
+  border: none;
+  width: 75%;
+  margin: 3rem auto 2rem;
 }
 
 .white-links {
@@ -250,6 +267,10 @@ figcaption {
   a[aria-current="page"] {
     color: var(--yellow);
   }
+}
+
+li::marker {
+  color: var(--dark-green);
 }
 
 /* Utility styles */
@@ -275,7 +296,7 @@ figcaption {
 }
 
 .tinted {
-  background: #dfeaea;
+  background: var(--light-green);
   padding: var(--padding);
   margin-top: 2rem;
 }

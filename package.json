@@ -13,5 +13,8 @@
     "@types/react": "^19.1.12",
     "astro": "^5.13.6",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "astro-font": "^1.1.0"
   }
 }
