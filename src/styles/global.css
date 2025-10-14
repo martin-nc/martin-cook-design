@@ -146,6 +146,7 @@ header {
     color: var(--dark-green);
     font-size: 2.4rem;
     line-height: 1;
+    letter-spacing: 0.04rem;
   }
 }
 
@@ -214,6 +215,10 @@ li {
 
 a {
   color: var(--link-blue);
+}
+
+strong {
+  font-weight: 700;
 }
 
 nav {
