@@ -140,7 +140,7 @@ header {
 
   div a {
     font-family: "Red Hat Display", sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     text-decoration: none;
     color: var(--dark-green);
@@ -165,9 +165,9 @@ ol {
 
 h1,
 h2 {
-  font-weight: 600;
+  font-weight: 500;
   color: var(--dark-green);
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   letter-spacing: 0rem;
 }
 
@@ -191,7 +191,9 @@ h2 + ul {
 }
 
 h3 {
+  font-family: "Poppins", sans-serif;
   margin: 0.5rem 0;
+  font-weight: 600;
 }
 
 h4 {
