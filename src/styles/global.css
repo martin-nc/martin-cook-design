@@ -125,7 +125,7 @@ body {
 
 /* headings */
 header {
-  margin: 1.75rem 0 1.25rem;
+  margin: 1.3rem 0 1.25rem;
   text-align: center;
 
   div a {
@@ -140,7 +140,7 @@ header {
 }
 
 .strapline {
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
   color: var(--grey);
 }
 
