@@ -1,0 +1,80 @@
+---
+const pageTitle = "Privacy";
+const description = "This site does not use cookies or collect personal data";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout pageTitle={pageTitle} description={description}>
+  <h2>Cookies</h2>
+  <p>
+    This site does not use cookies, and it does not contain embedded content
+    that sets cookies (like YouTube videos).
+  </p>
+
+  <h2>The data collected</h2>
+  <p>
+    The only personal data collected on the site is that which is recorded by
+    the web server where the site resides. Web servers typically collect basic
+    information about page requests, like the time, the IP address, the browser
+    used and the page requested.
+  </p>
+  <h2>Why it is needed</h2>
+  <p>
+    Servers collect this information for security reasons: they have software to
+    detect suspicious activity. They monitor requests and ban IP addresses that
+    show suspicious activity (like repeated attempts to find a log-in page).
+  </p>
+  <p>
+    Servers also keep log files with this information in, so that if a site is
+    hacked then there is a record of past activity. This helps track down the
+    cause of the hack.
+  </p>
+  <p>
+    Although your IP address is judged personal data under GDPR, in reality it
+    doesn't say much about you. You can't identify a person's location from it.
+    The best an IP address will tell you is the region someone lives (often not
+    even the city).
+  </p>
+  <p>
+    Your IP address can also change, so you can't even say that person who has a
+    certain IP address on one day will be the same person who has it another
+    day.
+  </p>
+  <p>I make attempt to identify people or track people using this data.</p>
+  <h2>The legal basis</h2>
+  <p>
+    The legal basis for processing the IP addresses is legitimate interest. It
+    is to ensure the security of the website and the safety of its users. If the
+    website got hacked, then it might be injected with malware targeting the
+    site users.
+  </p>
+  <h2>How the data is processed and stored</h2>
+  <p>
+    The page request information mentioned above is aggregated into simple,
+    high-level statistics. This allows me to see the level of activity on
+    different parts of the site.
+  </p>
+  <p>
+    The data is stored on servers in the UK, hosted by <a
+      href="https://krystal.io/">Krystal</a
+    >.
+  </p>
+  <h2>Exercising your rights</h2>
+  <p>
+    If you have questions or concerns about any of the above feel free to
+    contact me (<a href="mailto:martin@martincookdesign.co.uk"
+      >martin@martincookdesign.co.uk</a
+    >).
+  </p>
+
+  <h2>Google Fonts</h2>
+  <p>
+    The fonts on this site are stored with the site files. They are not
+    downloaded from Google Fonts when you view the site. Google Fonts is used by
+    many websites, but it has been judged to violate GDPR (see the <a
+      href="https://termageddon.com/google-fonts-violates-gdpr/"
+      >article at Termageddon</a
+    >). Also, people in the past have expressed concerns to me about visiting
+    sites that use this service.
+  </p>
+</BaseLayout>

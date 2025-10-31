@@ -1,0 +1,81 @@
+---
+const pageTitle = "Accessibility";
+const description = "This site does not use cookies or collect personal data";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout pageTitle={pageTitle} description={description}>
+  <p>
+    I have tried to make the site easy to use and understand, no matter what
+    technology or abilities you have. For example, you should be able to:
+  </p>
+
+  <ul>
+    <li>
+      see all the text on the site clearly because it has enough contrast,
+    </li>
+    <li>zoom in up to 300% without the text spilling off the screen,</li>
+    <li>navigate the website using a keyboard,</li>
+    <li>listen to the website using a screen reader.</li>
+  </ul>
+
+  <p>
+    The site aims to conform to the to the 'AA' standard of the <a
+      href="https://www.w3.org/TR/WCAG21/"
+      >Web Content Accessibility Guidelines (WCAG) 2.1</a
+    >. This is not just a legal requirement in the UK and European Union, but a
+    best practice that will enable as many people as possible to use the site.
+  </p>
+
+  <h2>How to report problems</h2>
+  <p>
+    If you have any difficulties or annoyances using the site, or feel that I am
+    not meeting accessibility requirements, then please contact me (<a
+      href="mailto:martin@martincookdesign.co.uk"
+      >martin@martincookdesign.co.uk</a
+    >). I am always interested in feedback and how things can be improved.
+  </p>
+  <h2>How I assess the accessibility of the site</h2>
+  <p>
+    I do not have the resources to hire an accessibility expert, but I have
+    taken an interest in digital accessibility. I have watched many people use
+    websites during user testing, and done courses in accessibility (including
+    the W3C's own course). Apart from using my own knowledge, I have assessed
+    the site resources including:
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.w3.org/WAI/test-evaluate/preliminary/"
+        >The W3C Web Accessibility Initiative checklist</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one"
+        >The British government accessibility checklist</a
+      >
+    </li>
+    <li>
+      <a href="https://www.w3.org/TR/WCAG21/"
+        >The Web Content Accessibility Guidelines</a
+      >
+    </li>
+    <li>
+      <a href="https://accessibilitytest.org/">AccessibilityTest.org</a>, which
+      runs several online accessibility checkers at once.
+    </li>
+  </ul>
+  <p>The website was last tested on TO FILL IN.</p>
+
+  <h2>Level of compliance</h2>
+  <p>
+    As far as we can ascertain, this website is compliant with the Web Content
+    Accessibility Guidelines version 2.1 AA standard. If you feel there are
+    issues to address, however, then please let me know (<a
+      href="mailto:martin@martincookdesign.co.uk"
+      >martin@martincookdesign.co.uk</a
+    >).
+  </p>
+
+  <p>This statement was prepared on 31 October 2025.</p>
+</BaseLayout>

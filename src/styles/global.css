@@ -1,161 +1,23 @@
-/* See https://www.joshwcomeau.com/css/custom-css-reset/ */
-/* 1. Use a more-intuitive box-sizing model */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* 2. Remove default margin */
-* {
-  margin: 0;
-}
-
-/* 3. Enable keyword animations */
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    interpolate-size: allow-keywords;
-  }
-}
-
-body {
-  /* 4. Add accessible line-height */
-  line-height: 1.4;
-  /* 5. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
-}
-
-/* 6. Improve media defaults */
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-/* 7. Inherit fonts for form controls */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* 8. Avoid text overflows */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-/* 9. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
-
-/*
-  10. Create a root stacking context
-*/
-#root,
-#__next {
-  isolation: isolate;
-}
-
-:root {
-  --padding: 1.5rem;
-  --padding-small: 1rem;
-  --font-size: 1.1rem;
-  --font-size-small: 1rem;
-  --black: #333;
-  --white: #fefefe;
-  --dark-green: #4b6b77;
-  --light-green: #dfeaea;
-  --yellow: #edc954;
-  --link-blue: #069;
-  --grey: #555;
-  --light: #efefef;
-  --text: var(--black);
-  --text-grey: var(--grey);
-  --background: var(--white);
-  --code-light-grey: #cacbd1;
-  --code-comment: #a9aaad;
-  --font-family-sans: Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
-    Courier, monospace;
-}
-
-/*
-* Site-specific styles
-* ====================
-*/
+@import "./reset.css";
+@import "./fonts.css";
+@import "./variables.css";
 
 html {
+  background: var(--white);
   font-family: "Nunito Sans";
-  color: var(--text);
-  background: var(--background);
   font-size: 100%;
+  color: var(--text);
+  overflow-x: hidden;
 }
 
 body {
   padding: 0;
   font-size: var(--font-size);
+  overflow-x: hidden;
 }
 
-.container {
-  max-width: 55rem;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 1.25rem;
-}
-
-.container.header {
-  border-bottom: 2px solid var(--light-green);
-  max-width: 100%;
-  /* border-top: 10px solid var(--dark-green); */
-  background: var(--dark-green);
-  color: var(--white);
-  header {
-    margin: 0.25rem auto 0;
-    padding: 1.4rem 1.5rem;
-    max-width: 55rem;
-  }
-}
-
-/* headings */
-header {
-  margin: 1.25rem 0 1.25rem;
-
-  div a {
-    font-family: "Red Hat Display", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--white);
-    font-size: 2rem;
-    line-height: 1;
-    letter-spacing: 0.03rem;
-  }
-}
-
-.strapline {
-  margin: 0;
-  color: var(--white);
-  font-size: 0.9rem;
+main {
+  margin: 2.2rem 0;
 }
 
 p,
@@ -176,7 +38,6 @@ h2 {
 h1 {
   margin-bottom: 1.25rem;
   font-size: 2.4rem;
-  font-family: "Nunito Sans", sans-serif;
 }
 
 h2 {
@@ -217,8 +78,26 @@ ul ul {
   padding: 0 0 0 1rem;
 }
 
+ul.nobullet {
+  list-style: none;
+}
+
+ul.inline {
+  padding-left: 0;
+  li {
+    display: inline;
+    a {
+      display: inline-block;
+    }
+  }
+}
+
 li {
   padding: 0 0 0.5rem;
+}
+
+li::marker {
+  color: var(--dark-green);
 }
 
 a {
@@ -228,39 +107,173 @@ a {
   }
 }
 
+figcaption {
+  font-size: var(--font-size-small);
+  text-align: center;
+  padding: 0.5rem 0 0;
+  background: #dfeaea;
+}
+
 strong {
   font-weight: 700;
 }
 
-nav {
-  ul {
-    padding: 0;
-    margin: 0 0 0 -15px;
-  }
+hr {
+  height: 2px;
+  background-color: var(--light-green);
+  border: none;
+  width: 75%;
+  margin: 3rem auto 2rem;
+}
 
-  li {
-    display: inline-block;
-    padding: 10px 10px;
+/* Generic container to keep lines of text a readable length. */
+.container {
+  position: relative;
+  max-width: 55rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* To create full-width container within a generic one. */
+.full-width {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  .container {
+    padding: 0 2rem;
   }
 }
 
-.white-links.main {
-  position: absolute;
-  left: 32.5rem;
-  top: 2rem;
-  a {
+@media screen and (min-width: 636px) {
+  .full-width .container {
+    padding: 0 1.5rem;
+  }
+}
+
+/* 
+* Header and logo 
+*/
+.header {
+  background: var(--dark-green);
+  color: var(--white);
+  header {
+    padding: 1.4rem 1.25rem;
+  }
+  .logo a {
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.03rem;
     color: var(--white);
+    text-decoration: none;
+  }
+  .strapline {
+    margin: 0;
+    color: var(--white);
+    font-size: 0.95rem;
+    font-weight: 300;
   }
 }
 
-footer {
-  nav li {
-    padding: 0 15px 5px;
+@media screen and (min-width: 636px) {
+  .header {
+    max-width: 100%;
+    header {
+      padding: 1.4rem 1.5rem;
+    }
   }
 }
 
-main {
-  margin: 2.2rem 0;
+/* 
+* Main nav 
+*/
+
+/* Hide the menu list first */
+#main-nav.hidden {
+  display: none;
+}
+
+/* Position to the right of the header */
+.nav-container {
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+/* Style the hamburger button */
+.nav-button {
+  position: relative;
+  padding: 5px 7px;
+  border: 0;
+  border-radius: 3px;
+  background-color: var(--light-green);
+  transition: background-color 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+  }
+  &[aria-expanded="true"] {
+    border-radius: 3px 3px 0 0;
+    background-color: var(--yellow);
+  }
+  rect {
+    fill: var(--dark-green);
+  }
+}
+
+/* Vertical menu for smaller screens 
+*  Notice the links are styled by the generic 'white-links' class 
+*/
+.main-nav-list {
+  position: absolute;
+  right: 0;
+  z-index: 11;
+  width: 20rem;
+  border-radius: 4px 0 4px 4px;
+  background: #333;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  list-style: none;
+  li {
+    padding: 0;
+    &:last-child a {
+      border-bottom: 0;
+    }
+    a {
+      display: block;
+      padding: 0.7rem;
+      border-bottom: 1px solid #666;
+    }
+  }
+}
+
+/* Horizontal menu for wider screens */
+@media screen and (min-width: 840px) {
+  .nav-button {
+    display: none;
+  }
+  #main-nav.hidden {
+    display: block;
+  }
+  .main-nav-list {
+    position: static;
+    width: auto;
+    background: transparent;
+    box-shadow: none;
+    li {
+      display: inline;
+      a {
+        display: inline-block;
+        border-bottom: none;
+      }
+      a[aria-current="page"] {
+        text-decoration: solid underline var(--yellow) 2px;
+        text-underline-offset: 4px;
+      }
+    }
+  }
 }
 
 .footer-contact {
@@ -276,49 +289,22 @@ main {
 }
 
 footer {
-  background: var(--dark-green);
+  background: var(--black);
   margin: 0;
-  padding: 0.5rem 0 4rem;
-  a {
-    color: var(--white);
-  }
-}
-
-figcaption {
-  font-size: var(--font-size-small);
+  padding: 0.4rem 0 4rem;
   text-align: center;
-  padding: 0.5rem 0 0;
-  background: #dfeaea;
-}
-
-hr {
-  height: 2px;
-  background-color: var(--light-green);
-  border: none;
-  width: 75%;
-  margin: 3rem auto 2rem;
-}
-
-.white-links {
-  a:link,
-  a:visited {
-    /*color: var(--white);*/
-    text-decoration: none;
-    transition: border-color 0.2s ease-out;
-    border-bottom: 3px solid transparent;
-  }
-
-  a:hover {
-    border-color: var(--yellow);
-  }
-
-  a[aria-current="page"] {
-    border-bottom: 3px solid var(--yellow);
+  a,
+  .white-links a {
+    font-size: var(--font-size-xsmall);
+    padding: 5px;
+    color: var(--grey-xlight);
   }
 }
 
-li::marker {
-  color: var(--dark-green);
+@media screen and (min-width: 625px) {
+  footer {
+    text-align: left;
+  }
 }
 
 /* Utility styles */
@@ -345,7 +331,7 @@ li::marker {
 
 .tinted {
   background: var(--light-green);
-  padding: var(--padding);
+  padding: var(--padding) 0;
   margin-top: 2rem;
 }
 
@@ -354,6 +340,21 @@ li::marker {
   border-radius: 10px;
   padding: var(--padding);
   margin-top: 2rem;
+}
+
+.white-links {
+  a {
+    border-bottom: none;
+    color: white;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s ease-out;
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-color: #edc954;
+      text-decoration-thickness: 2px;
+    }
+  }
 }
 
 .m-0 {
@@ -399,7 +400,11 @@ li::marker {
 }
 
 .p-r-0 {
-  padding-right: 0;
+  padding-right: 0 !important;
+}
+
+.p-l-0 {
+  padding-left: 0 !important;
 }
 
 .float-container {
@@ -407,8 +412,17 @@ li::marker {
 }
 
 .float-right {
-  float: right;
-  margin-left: var(--padding);
+  text-align: center;
+  img {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .float-right {
+    float: right;
+    margin-left: var(--padding);
+  }
 }
 
 .flex-container {
@@ -424,7 +438,7 @@ li::marker {
   text-align: right;
 }
 
-.invisible {
+.sr-only {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -434,47 +448,18 @@ li::marker {
   width: 1px;
 }
 
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
+.skip-link {
+  background: var(--yellow);
+  display: inline-block;
+  left: 50%;
+  padding: 8px;
   position: absolute;
-  top: 35px;
-  right: 0;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  color: var(--black);
+  text-decoration: none;
 }
 
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 4px;
-  margin-bottom: 8px;
-  background-color: var(--dark-green);
-}
-
-.white-links {
-  display: none;
-}
-
-.white-links div {
-}
-
-.white-links a {
-  display: block;
-}
-
-.expanded {
-  display: unset;
-}
-
-@media screen and (min-width: 636px) {
-  .white-links {
-    display: block;
-    position: static;
-  }
-
-  .white-links a {
-    display: inline-block;
-  }
-  .hamburger {
-    display: none;
-  }
+.skip-link:focus {
+  transform: translateY(0%);
 }

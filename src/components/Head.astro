@@ -1,0 +1,27 @@
+---
+interface Props {
+  pageTitle: string;
+  description: string;
+}
+const { pageTitle, description } = Astro.props;
+---
+
+<head>
+  <meta charset="utf-8" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={`${description}`} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width" />
+  <link
+    rel="preload"
+    href="/fonts/RedHatDisplay-Light.ttf"
+    as="font"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf"
+    as="font"
+    crossorigin="anonymous"
+  />
+</head>
