@@ -1,87 +1,305 @@
 ---
 const pageTitle = "About";
 const description = "About the web developer Martin Cook";
-import { Image } from "astro:assets";
-import mugShot from "../assets/me2.jpg";
+import { Picture, Image } from "astro:assets";
+import uclLogo from "../assets/ucl-logo.png";
+import kingsLogo from "../assets/kings-logo.avif";
+import ihrLogo from "../assets/ihr-logo.svg";
+import elixirLogo from "../assets/elixir-logo.svg";
+import biohackathon from "../assets/biohackathon-europe.jpg";
+import brainstorm1 from "../assets/brainstorm1.jpg";
+import brainstorm2 from "../assets/brainstorm2.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
+  <h2>Examples of web development</h2>
   <p>
-    I've spent 25 years working on different aspects of web development,
-    including:
+    I've created a <strong
+      ><a
+        href="https://docs.google.com/presentation/d/1gbwU_oVCzgfv0rVYhEbUt1BtQnRbrGkrtxIzR1XBU_M/present"
+        target="_blank">slideshow of examples of my work</a
+      >
+    </strong> (opens a new tab), with notes on each example.
+  </p>
+
+  <h2>Examples of web writing</h2>
+  <ul class="mb-0">
+    <li>
+      <a
+        href="https://churchmonumentssociety.org/monument-of-the-month/of-rubble-and-remains-the-harvey-sarcophagus-hempstead-essex"
+        >Of Rubble and Remains: The Harvey Sarcophagus, Hempstead, Essex</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://docs.google.com/document/d/1MMe8buC2TJedvR9Sm3N7N670qWo9oTG3VYLlA45X2fA/edit?usp=sharing"
+        >Peralta</a
+      >: a feature for a journalism course at Birkbeck College, London (I got a
+      distinction!).
+    </li>
+
+    <li>
+      <a
+        href="https://web.archive.org/web/20120707102153/http://www.kings.cam.ac.uk/research/current-research/"
+        >The Devil's cancer</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905150950/http://www.kings.cam.ac.uk/research/current-research/burgwinkle.html"
+        >Troubadours, medieval erotica and the myth of a national language</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905141015/http://www.kings.cam.ac.uk/research/current-research/superconductors-ainslie.html"
+        >Saving space and energy with superconductors</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905141326/http://www.kings.cam.ac.uk/research/current-research/nationalism-weibye.html"
+        >The roots of German identity</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905154450/http://www.kings.cam.ac.uk/research/current-research/nk-cells-colucci.html"
+        >Investigating natural killers</a
+      >
+    </li>
+  </ul>
+  <p>
+    See also the <a
+      href="https://docs.google.com/presentation/d/18e5906zAf_PPgP0eWhd5U33epUDo55f23BKXq7NY7I4/present"
+      >slideshow with more examples</a
+    >.
+  </p>
+
+  <h2>Where I've worked</h2>
+  <p>
+    I've spent 25 years working in web development. Here is a quick summary:
+  </p>
+  <h3 class="text-primary mt-3 border-bottom">1999-2003</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={uclLogo}
+        alt="The UCL logo"
+        layout="constrained"
+        width={150}
+      />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>Wellcome Department of Cognitive Neurology, UCL, London.</strong
+        >
+        I worked here after finishing an MSc in Neuroscience, and worked my first
+        website (for our lab). Note this institute is now called The Wellcome Centre
+        for Human Neuroimaging.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2003-2008</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image src={ihrLogo} alt="IHR logo" layout="constrained" width={150} />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>Institute of Historical Research, London.</strong>
+        My first full-time job as a web developer, as a junior and then as website
+        manager. I also started my own company making small academic websites.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2008-2015</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={kingsLogo}
+        alt="King's College logo"
+        layout="constrained"
+        width={150}
+      />
+    </div>
+    <div>
+      <p>
+        <strong>King's College, Cambridge.</strong> I oversaw the main website and
+        redesigned it twice. I wrote much of the content, made microsites and sub-brands,
+        and took photos for the site. I also carried on my own company.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2015-2024</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={elixirLogo}
+        alt="ELIXIR Europe logo"
+        layout="constrained"
+        height={60}
+      />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>ELIXIR Europe</strong>
+        this is an EC-funded project that aims to make life science data in Europe
+        easier to find, share and analyse. Again, I redesigned the main site twice
+        and worked on websites and projects from around Europe. I closed my own company
+        when I started this job, since you weren't allowed to work outside the job.
+      </p>
+    </div>
+  </div>
+  <p class="mt-4">
+    I started my own company again after leaving ELIXIR Europe. See my <a
+      href="https://www.linkedin.com/in/martincook3/">LinkedIn profile</a
+    > for more about my past jobs.
+  </p>
+  <div class="tinted full-width">
+    <div class="container align-center">
+      <figure class="mt-3 mb-3">
+        <Picture
+          src={biohackathon}
+          alt="A crowd of people looking at the camera, with an arrow pointing to one person"
+          layout="constrained"
+          width={700}
+          formats={["jpeg", "webp"]}
+          loading="lazy"
+          class="m-center height-auto"
+        />
+        <figcaption>
+          Me at the BioHackathon Europe 2023, Barcelona. This event brings
+          together software developers, bioinformaticians, data managers and
+          trainers to develop resources for the life sciences. The resources
+          could be software, standards or training materials. I was on the
+          BioHackathon organising committee.
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+  <h2>Tasks</h2>
+  <p>
+    These are the things I've done in the above workplaces and in my own
+    business.
   </p>
   <ul>
     <li>
-      Coding and scripting with a variety of technologies, including traditional
-      CMSs like Drupal and Wordpress, to flat-file systems like Jekyll and Grav,
-      and JavaScript frameworks like React (with Gatsby and Next.js);
+      <strong>Coding and scripting.</strong> I've used a variety of technologies,
+      including traditional PHP-based CMSs like Drupal and Wordpress, to flat-file
+      systems like Jekyll and Grav, and JavaScript frameworks like React (with Gatsby
+      and Next.js).
     </li>
-    <li>Researching, planning and designing new features and new websites;</li>
-    <li>User experience (UX) and user testing;</li>
     <li>
-      Web writing and editing (I've done courses in journalism and web writing).
-      I've written style guides for the sites I've worked on and coordinated
-      content delivery from across organisations;
+      <strong>Web design.</strong> I have designed sites based on existing brand
+      guidelines as well as created designs and logos for project from scratch.
     </li>
-    <li>Ensuring accessibility and privacy standards are met;</li>
-    <li>Server maintenance (Apache on CentOS and Debian);</li>
-    <li>Custom database development (MySQL/MariaDB);</li>
     <li>
-      Organising hackathons for European projects, and working in teams to
-      create strategy, training and style guides;
+      <strong>Web writing and editing.</strong> I've written much of the content
+      for the sites I've worked on, and written style guides to keep the content
+      consistent. I've also coordinated content delivery from people across the organisations.
     </li>
-    <li>Staff training.</li>
+    <li>
+      <strong>User experience (UX).</strong> I have run formal session with groups
+      as well as one-to-ones, to gather honest feedback.
+    </li>
+    <li>
+      <strong>Strategy.</strong> I have worked with stakeholders to establish the
+      priorities and primary users of the site. The resulting brief strategy document
+      helped guide the site content and features.
+    </li>
+    <li>
+      <strong>Legal and security aspects:</strong> I've been responsible for ensuring
+      accessibility, privacy and copyright regulations are met. I've also been responsibe
+      for the website and server security.
+    </li>
+    <li>
+      <strong>Server maintenance:</strong> I make no claims to be a server admin,
+      but occasionally I have had to maintain servers myself. These were Apache on
+      CentOS and Debian.
+    </li>
+    <li>
+      <strong>Digital imaging and photography:</strong> I have done a lot of image
+      editing and photography.
+    </li>
+    <li>
+      <strong>Database development:</strong> in earlier times, I did custom PHP/MySQL
+      development, where I designed the database (with normalisation etc).
+    </li>
+    <li>
+      <strong>Community projects.</strong> I have worked with teams on community
+      websites, and helped organise and run hackathons for European projects.
+    </li>
+    <li>
+      <strong>Staff training.</strong> I have trained some staff in basic web technologies
+      like HTML and CSS.
+    </li>
   </ul>
-
-  <p>See my LinkedIn profile.</p>
-  <h2>Environment</h2>
-  <p>Green hosting and conscious of material waste and energy use.</p>
-  <h2>A little bio</h2>
+  <div class="full-width tinted">
+    <div class="container">
+      <div class="flex-container">
+        <div>
+          <Picture
+            src={brainstorm1}
+            alt="Hand-written sketches and notes"
+            layout="constrained"
+            width={400}
+            formats={["jpeg", "webp"]}
+            class="border"
+            loading="lazy"
+          />
+        </div>
+        <div>
+          <Picture
+            src={brainstorm2}
+            alt="Printouts of birth certificates and family trees stuck on white paper, with hand-written notes around them"
+            layout="constrained"
+            width={400}
+            class="border"
+            formats={["jpeg", "webp"]}
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <p class="align-center">
+        If I have to design a site from scratch, I like to get away from the
+        computer and gather design ideas on a piece of A2 paper. The first image
+        is of some doodles for ideas for the Turing Digital Archive website
+        (including copies some of Turing's own sketches). The second shows ideas
+        for a family history site I made, where I was looking at the design
+        elements of birth certificates and family trees, and using a mind map to
+        brainstorm. The banner on the home page shows some of these images.
+      </p>
+    </div>
+  </div>
+  <h2>Qualifications</h2>
+  <ul>
+    <li>Msc Neuroscience</li>
+    <li>BSc Psychology</li>
+    <li>CTEFLA (Certificate for Teaching English as a Foreign Language)</li>
+    <li>Diploma in Art and Design</li>
+    <li>Diploma in French (DELF B1)</li>
+  </ul>
+  <h2>Training</h2>
   <p>
-    Websites and applications are facades and it's sometimes hard to be sure
-    who's behind them and what credibility they have.
+    Web technologies change so fast that training is ongoing. I keep doing
+    online refreshers in the basic technologies (HTML, CSS, Javascript), and
+    currently have a subscription to <a href="https://laracasts.com/"
+      >Laracasts</a
+    > (PHP, Laravel, Javascript frameworks) and <a
+      href="https://learnjavascript.online/">Learn Javascript</a
+    >.
   </p>
   <p>
-    In the old days when we visited a shop in the bricks and mortar world we
-    knew what part of town it was in, we could see from the outside if it was
-    well kept or not, and we could tell from the staff how well run and
-    trustworthy it was. We don't have all those cues in the digital world, so
-    this is why I'm adding a short biography, just to make me more
-    three-dimensional!
+    I also do one-off courses. I'm currently doing one about UX at Coursera, and
+    did the W3C certificate in digital accessibility in Spring 2025.
   </p>
   <p>
-    I come from a village in the North-East of England, and left at 18 to do a
-    degree in Psychology in London. After this I got my first jobs: working in a
-    shop near Victoria Station, and then on the buses from Brixton Garage (quite
-    a life experience!).
-  </p>
-  <p>
-    Then I hitch-hiked around Europe a bit, did the <i lang="fr">vendange</i> (grape
-    picking) in France and Switzerland and lived on a kibbutz in Israel for six months.
-    It's hard to believe it now, but it was a fashionable thing for students to do
-    at the time.
-  </p>
-  <p>
-    On returning to London, I worked at the Royal Free Hospital School of
-    Medicine and did a part-time Masters in Neuroscience. I aimed to take a year
-    out and to start a PhD, but I went to South-East Asia and ended up staying
-    there nearly five years. I did a certificate in Teaching English as a
-    Foreign Language at the British Council in Kuala Lumpur and taught in
-    Malaysia, Singapore and Indonesia.
-  </p>
-  <p>
-    When I got back I worked in the Welcome Department of Cognitive Neurology at
-    UCL in London. I did a Foundation Course in Art and Design whilst I was
-    there (it was part-time), and helped make and maintain a department website
-    (1998).
-  </p>
-  <p>
-    In 2004 I got a job as a web developer at the Institute of Historical
-    Research in London, and have been a full-time developer since then.
-  </p>
-  <p>
-    I now live in a village near Cambridge with my partner and two daughters,
-    and learn and study all sorts of things.
+    I keep up my interest in art, design and photography. In 2025 I did a series
+    of courses in printmaking at the <a
+      href="https://www.curwenprintstudy.co.uk/">Curwen Print Centre</a
+    > (a renowned place to learn printmaking). Printmaking is a sort of precursor
+    to the mass communication of the web!
   </p>
 </BaseLayout>

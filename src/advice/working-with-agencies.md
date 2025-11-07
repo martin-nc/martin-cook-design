@@ -2,9 +2,6 @@
 title: Working with agencies
 order: 8
 description: "Advice for working with agencies when you develop your website or app."
-image:
-  url: "https://docs.astro.build/default-og-image.png"
-  alt: "The word astro against an illustration of planets and stars."
 ---
 
 ## Make sure you own the web accounts
@@ -27,7 +24,8 @@ Some agencies offer bespoke solutions. "Bespoke" can have two meanings:
 1. The agency select standard components from a well-known system like WordPress or Drupal. For example, they may select the most appropriate plugins for WordPress to suit your needs. This type of "bespoke" is fine because plugins for systems like this are usually well-tested and documented.
 2. The agency provide their own in-house system, which has not been thoroughly tested by a community around the world, and is not publicly documented. This is not so good. It means you rely entirely on the company to update and run your website.
 
-<div class="highlighted">
+<div class="highlighted full-width case-study">
+<div class="container">
 
 ### Case study: emigrating developers
 
@@ -36,6 +34,7 @@ I once worked on a large custom-built site at a university. One day the partners
 **Lesson:** make sure you choose a well-documented system that is used by a lot of people. This means you will be able to find another agency to help you if you become unhappy with your current agency. This will be much more difficult with a bespoke system. If the agency adds some customisation to the system, make sure it is well documented.
 
 </div>
+</div>
 
 ## Get a system that suits you, not the agency
 
@@ -43,22 +42,24 @@ Some agencies prefer one particular system, like WordPress, Drupal or Next.js. T
 
 Also, talk to other agencies to see what system they would choose and why. Remember, the system they choose can have a big impact on the running costs of the site. Ask how much the site will cost per year to run.
 
-<div class="tinted">
+<div class="tinted full-width mb-5">
+<div class="container idea">
 
 ### The elephant analogy: beware of "industry standard" solutions
 
 A friend who went into sales told me about an analogy the sales trainer had given them. The trainer said that in the old days, when elephants were in circuses, the elephant trainer would chain young elephants to a thick stake in the ground. The elephant would pull all it could, but couldn't get away. Gradually it learned not to bother pulling the chain, and by the time the elephants were adults you could chain them to a stout tent peg, and they wouldn't walk away.
 
-The trainer said, "This is what you need to do to your customers: chain them mentally and emotionally to a product, so it doesn't cross their mind to walk away."
+The trainer said, "This is what you need to do to your customers: chain them mentally and emotionally to your product, so it doesn't cross their mind to walk away."
 
 Here was my first experience of this at work. I was at party in the early naughties and someone asked me, "What do you do for a living?" I said, "I'm a web developer." They said, "Oh, I'd like to do that...but I haven't got Dreamweaver."
 
-Dreamweaver was a piece of software that allowed non-technical people to make websites. It was the "industry standard" for this in its day. Macromedia, who made the software, had been so successful they'd implanted the idea that to make a website you needed Dreamweaver. Of course this was nonsense.
+Dreamweaver was a piece of software that allowed non-technical people to make websites. It was the "industry standard" for this in its day. Macromedia, who made the software, had been so successful that they'd implanted the idea that to make a website you needed Dreamweaver. Of course, this wasn't true.
 
-Products like this today are Google (for searching the web) and Adobe Photoshop (for editing images). You don't necessarily need either.
+Products like this today are Google for searching the web and Adobe Photoshop for editing images. You don't _need_ either.
 
-What's most important is to choose a system that suits your needs. Don't chain yourself to a tent peg just because others have.
+What's most important is to choose a system that suits your needs. Unless it's particulalry important for you to follow the fashion, don't chain yourself to a tent peg just because others have.
 
+</div>
 </div>
 
 ## Make sure they are aware of legal requirements
