@@ -48,6 +48,11 @@ If you get feedback from someone with strong opinions, and who states authoritat
 
 ## Case study: the CAF bank relaunch fiasco
 
+<figure class="float-right width-300">
+<img src="/images/caf-bank.jpg" alt="A screenshot of the CAF bank home page, with a huge photograph of two people giving a high five" width="300" />
+<figcaption>CAF Bank demonstrating NFD: Non-Functional Design. See also <a href="/advice/dont-treat-websites-art/">Don't treat websites as art</a>.</figcaption>
+</figure>
+
 In the UK there is a bank called the Charities Aid Foundation (CAF) Bank. It is a bank used by charities to deposit their money and make payments. In June 2025 it relaunched its online banking service and website.
 
 Within a week they had so many complaints they had to close their phone lines, and then take down the website. Although many problems concerned the back end system not working (e.g. payments not going through), the front-end website also had issues. Examples include:
@@ -57,7 +62,7 @@ Within a week they had so many complaints they had to close their phone lines, a
 - **Inconsistent dialogue boxes:** in some screens the positive options like "Yes" and "Continue" (versus "No" and "Go back") were on the left side of the dialogue box, and in other screens they were on the right.
 - **No system feedback:** if you tried to submit a form without filling all the mandatory fields then nothing happened. There was no error message to help.
 
-Clearly no-one had watched a customer use this site before it was launched. Anyone interested in what customers said about it can look at their [comments to the bank's statement about the relaunch](https://www.facebook.com/CharitiesAidFoundation/posts/a-message-from-caf-bankwe-recently-launched-our-new-online-banking-system-design/1117119583786763/) on Facebook.
+Clearly no-one had watched a customer use this site before it was launched. Anyone interested in what customers said about it can look at their [comments on TrustPilot](https://uk.trustpilot.com/review/www.cafonline.org).
 
 </div>
 </div>

@@ -1,12 +1,12 @@
 ---
 title: Beware of false consensus and pluralistic ignorance
 order: 5
-description: "Why you should try out your website or app on a few people throughout the development cycle, and not wait until the launch."
+description: "Avoid these common cognitive biases when your are developing a website or app."
 ---
 
-False consensus is a cognitive bias where you exaggerate your ability to guess what other people think. What's more, when you find you have predicted other people wrongly, instead of saying to yourself, "Oh, I got that wrong" and modifying your view, you dismiss these people as ignorant or exceptions and persist with the same view you had before.
+**False consensus** is a cognitive bias where you exaggerate your ability to guess what other people think. What's more, when you find you have predicted other people wrongly, instead of saying to yourself, "Oh, I got that wrong" and modifying your view, you dismiss these people as ignorant or exceptions and persist with the same view you had before.
 
-Pluralistic ignorance is when people conform to an opinion they privately don’t agree with, because they think they are odd or in the minority, when in fact most people think like them.
+**Pluralistic ignorance** is when people conform to an opinion they privately don’t agree with, because they think they are odd or in the minority, when in fact most people think like them.
 
 ## An example from user testing
 

@@ -431,6 +431,14 @@ div {
   color: var(--dark-green);
 }
 
+.italic {
+  font-style: italic;
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
 .bordered {
   border: 10px solid #dfeaea;
   margin-top: 2rem;
@@ -553,6 +561,10 @@ div {
   display: flow-root;
 }
 
+figure {
+  margin: 1rem auto;
+}
+
 .float-right,
 .float-left {
   text-align: center;
@@ -561,7 +573,14 @@ div {
   }
 }
 
+.width-300 {
+  width: 300px;
+}
+
 @media screen and (min-width: 625px) {
+  figure {
+    margin: 1rem;
+  }
   .float-right {
     float: right;
     margin-left: var(--padding);
@@ -633,6 +652,28 @@ div {
   }
 }
 
+.scroller {
+  height: 570px;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  border: 2px solid #ddd;
+  h2 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.9rem !important;
+  }
+  section {
+    scroll-snap-align: start;
+    min-height: 100%;
+    padding: 10px;
+    img {
+      height: auto;
+    }
+  }
+}
+
 .align-center {
   text-align: center;
 }
@@ -687,7 +728,7 @@ div {
 
 .case-study h2 {
   color: var(--black);
-  background: transparent url("/images/case-study4.svg") left top no-repeat;
+  background: transparent url("/images/case-study4.svg") left top -4px no-repeat;
   background-size: 33px;
   padding-left: 37px;
 }

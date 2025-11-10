@@ -1,6 +1,6 @@
 ---
 title: "Don't skip the strategy"
-description: "Some things to think about when planning a new website, a redesign, or a new feature."
+description: "Some things to think about when planning a new website, a redesign, or a new feature, particularly the goals and users of the site."
 order: 1
 ---
 
@@ -9,7 +9,7 @@ This is the most overlooked step in website development. You can have the greate
 1. What do you want the site to do for you?
 2. Who are the users and what do they want?
 3. What is unique about your site?
-4. What content and features would give you what you want and the users what they want, and provide a unique experience?
+4. What content and features would give you what you want, the users what they want, and provide a unique experience?
 
 ## 1. What do you want the site to do for you?
 
@@ -70,7 +70,7 @@ A website is like the box wrapping the organisation. What would you say on your 
 </div>
 </div>
 
-## 4. What content and features would give you what you want and the users what they want, and provide a unique experience?
+## 4. What content and features would give you what you want, the users what they want, and provide a unique experience?
 
 This is where you bring questions 1, 2 and 3 together. There may be some things you need to include on your site that most people aren’t interested in, like legal information or funding acknowledgements. Often, though, there is an overlap between what you want on the site and what the users want to see.
 
