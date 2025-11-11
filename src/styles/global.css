@@ -21,7 +21,6 @@ body {
   height: 100%;
 }
 
-<<<<<<< HEAD
 /* headings */
 header {
   margin: 1.3rem 0 1.25rem;
@@ -41,7 +40,7 @@ header {
 .strapline {
   margin-top: 0.15rem;
   color: var(--grey);
-=======
+}
 body > footer {
   position: sticky;
   top: 100vh;
@@ -49,7 +48,6 @@ body > footer {
 
 main {
   margin: 2.2rem 0;
->>>>>>> design4
 }
 
 p,
