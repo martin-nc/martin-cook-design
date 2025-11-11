@@ -21,26 +21,6 @@ body {
   height: 100%;
 }
 
-/* headings */
-header {
-  margin: 1.3rem 0 1.25rem;
-  text-align: center;
-
-  div a {
-    font-family: "Red Hat Display", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--dark-green);
-    font-size: 2.75rem;
-    line-height: 1;
-  }
-}
-
-.strapline {
-  margin-top: 0.15rem;
-  color: var(--grey);
-}
 body > footer {
   position: sticky;
   top: 100vh;
