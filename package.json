@@ -17,6 +17,8 @@
   "dependencies": {
     "@astrojs/react": "^4.4.2",
     "astro-font": "^1.1.0",
-    "astro-navbar": "^2.4.0"
+    "astro-navbar": "^2.4.0",
+    "astro-seo-schema": "^5.1.0",
+    "schema-dts": "^1.1.5"
   }
 }
