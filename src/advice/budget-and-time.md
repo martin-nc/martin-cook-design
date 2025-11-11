@@ -2,9 +2,6 @@
 title: Think about budget and time
 description: "A few questions to help you plan the budget and time for a new website or application"
 order: 2
-image:
-  url: "https://docs.astro.build/assets/arc.webp"
-  alt: "The Astro logo on a dark background with a purple gradient arc."
 ---
 
 After the [strategy questions](/dont-skip-strategy/), you’ll have an idea of the content and features you’d like. The following questions will give you an idea of the resources you might need, like the budget and time.
@@ -27,7 +24,8 @@ You will probably want a site design with photos and illustrations. Where will t
 
 If you want a more sophisticated system, with a shopping cart or a log-in area, there will be more ongoing maintenance and hosting charges, not just an initial setup or redesign charge.
 
-<div class="tinted" id="lobster-pot">
+<div class="tinted full-width" id="lobster-pot">
+<div class="container idea">
 
 ### Beware of lobster pot pricing
 
@@ -37,6 +35,7 @@ Some Wordpress plugins and services like Webflow, Wix, Netlify and SquareSpace w
 
 When researching website services, look at what you get in different price tiers. Also, if you need any addons/plugins, like an integration with Mailchimp to show your newsletters on your site, then how much is that? Does the addon/plugin work on a freemium model as well? Will it be enough to stay on the free tier, or would you need to pay more?
 
+</div>
 </div>
 
 ## How long will the site last?

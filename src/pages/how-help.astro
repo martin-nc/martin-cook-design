@@ -1,47 +1,69 @@
 ---
 const pageTitle = "How I can help";
 const description =
-  "Ways I can help with your web project, from coding and designing to maintenance and support";
+  "Ways I can help with your website development, from coding and designing to writing,  maintenance and support";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
-  <p>I can:</p>
-  <ul class="p-y-3">
+  <ul class="grid-container">
     <li>
-      <strong>Chat through your project with you</strong>, suggest some
-      possibilities and give some advice. There is no pressure and no cost for
-      an initial chat.
+      <div>
+        <img src="/images/create-websites.svg" height="60" alt="" />
+
+        <h2>Make websites</h2><p>
+          I create small to medium websites with a design and technology that
+          suits your needs.
+        </p>
+      </div>
     </li>
     <li>
-      <strong>Create small to medium websites</strong> with a technology that suits
-      your needs. We'd talk about what you want from your site, and I'd choose the
-      simplest technologies possible, with the fewest ongoing costs.
+      <div>
+        <img src="/images/maintain-websites.svg" height="60" alt="" />
+        <h2>Maintain websites</h2><p>
+          I can maintain existing websites, including updating content and
+          adding new features.
+        </p>
+      </div>
     </li>
     <li>
-      <strong>Maintain and develop existing websites</strong>. I can help you
-      keep the site going and add new features.
+      <div>
+        <img src="/images/edit.svg" height="60" alt="" />
+        <h2>Create content</h2><p>
+          I can write and edit text based on documents you have, and create
+          illustrations. I can also collate content from site stakeholders.
+        </p>
+      </div>
     </li>
     <li>
-      <strong>Review existing sites</strong> for usability (UX) and accessibility.
-    </li>
-    <li>
-      <strong>Write and edit content</strong> to make it more accessible. I can also
-      help coordinate content from different stakeholders.
-    </li>
-    <li><strong>Create illustrations</strong> for websites.</li>
-    <li>
-      <strong>Train you</strong> how to maintain websites, and how basic web technologies
-      work.
+      <div>
+        <img src="/images/advise.svg" height="60" alt="" />
+        <h2>Advise</h2><p>
+          I can make sure you meet legal requirements for the site, and give
+          ideas about the structure, usability and design.
+        </p>
+      </div>
     </li>
   </ul>
-  <div class="tinted">
-    <h2>Contact</h2>
-    <p>Drop me a line if you'd like to chat about your site.</p>
-    <p class="text-primary text-large">
-      07965 235865<br />
-      <a href="mailto:martin@martincookweb.com">martin@martincookweb.com</a>
-    </p>
+  <p>
+    In addition, I also give <strong>training</strong> in basic web technologies.
+    This includes how websites and Content Management Systems work, and the basics
+    of HTML, CSS and Javascript.
+  </p>
+  <p>
+    See the <a href="/about/">About page</a> for my experience and portfolio.
+  </p>
+  <div class="tinted full-width">
+    <div class="container">
+      <h2 class="contact">Contact</h2>
+      <p>Get in touch if you'd like to chat about your project.</p>
+      <p class="text-primary text-xx-large">
+        07455 624491<br />
+        <a href="mailto:martin@martincookdesign.co.uk"
+          >martin@martincookdesign.co.uk</a
+        >
+      </p>
+    </div>
   </div>
   <h2>The technologies I can help with</h2>
   <p>
@@ -52,30 +74,32 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     >
     I will tell you if I have experience in the technology you use or not.
   </p>
-  <p>I have most experience in:</p>
-  <ul>
-    <li>traditional content management systems like WordPress and Drupal;</li>
-    <li>PHP-based applications;</li>
-    <li>small site builders like Grav, Jekyll and Astro;</li>
+  <h3>Technologies I have most experience in</h3>
+  <ul class="mb-0">
+    <li>
+      traditional PHP-based applications and content management systems like
+      WordPress and Drupal;
+    </li>
+    <li>small site builders like Kirby, Jekyll and Astro;</li>
     <li>React or React-based systems like Gatbsy and Next.js.</li>
   </ul>
-  <p>I don't have experience in:</p>
+  <p>
+    I have also built online shops with systems like Volusion, and used other
+    site builders.
+  </p>
+  <h3>Some technologies I don't have experience in</h3>
   <ul>
     <li>Microsoft-based technologies like SharePoint or .net;</li>
     <li>
       Python or Ruby-based applications like Django or the Ruby on Rails
       framework;
     </li>
-    <li>Building mobile apps.</li>
+    <li>Building mobile apps;</li>
   </ul>
-  <p>
-    I have also built online shops with systems like Volusion, and used other
-    site builders.
-  </p>
 
-  <h2>If you're not sure...</h2>
+  <h2>Don't forget...</h2>
   <p>
-    Have a look at the <a href="/advice/">advice pages</a>. I've given some
-    ideas to help you make more informed decisions about your site.
+    I've added some <a href="/advice/">advice pages</a> to help you make more informed
+    decisions about your site.
   </p>
 </BaseLayout>

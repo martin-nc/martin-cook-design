@@ -2,9 +2,6 @@
 title: Making your own website
 order: 9
 description: "Things to consider if you want to make your own website but don't have technical skills"
-image:
-  url: "https://docs.astro.build/default-og-image.png"
-  alt: "The word astro against an illustration of planets and stars."
 ---
 
 There are lots of ways to make your own website. You can use services like Wix, SquareSpace and Canva; you can create a site on WordPress.com or buy web hosting and use the tools your web host provides. None of these need technical knowledge, but here are a couple of things to consider.
@@ -24,7 +21,7 @@ Here are some questions you might want to ask yourself:
 - Is there a free trial where you can try out different solutions and see which you prefer? It's worth taking the time now because once the site is running you probably won't want the palaver of moving it.
 - What do the online reviews say?
 - If you want to collect personal data like email addresses on the site, is the company GDPR-compliant? Where is the data held and who do they share it with? Remember, you need to put a privacy statement on your site mentioning this.
-- How many people will need to log in and change the site? Sometimes basic plans are limited by number of user accounts. You can try sharing one account but you might find when one person logs in the other gets logged out!
+- How many people will need to log in and change the site? Sometimes basic plans are limited by number of user accounts. You can try sharing one account, but you might find that when one person logs in the other gets logged out!
 - How many pages are you allowed? Some starter packages may only give you five pages, for example.
 
 ## Tips on making the site
@@ -60,16 +57,18 @@ With the web, the cost of leaving a site is zero. If you don't see what you want
 
 In the [Test little and often page](/advice/test-little-often/) we talked about the importance of getting feedback. When you've got your site, ask for feedback. If possible, be next to someone and watch them use the site. Ideally you'd ask people who are you target audience to look at it, but even friends are better than nothing. They will tell you the most obviously confusing things.
 
-<div class="tinted">
+<div class="tinted full-width mb-5">
+<div class="container idea">
 
 ### A free website?
 
-If you don't want to spend any money at all on a website, you could use social media like Facebook, Instagram, YouTube, Pinterest and Bluesky. It depends what you do, and what audience you want to reach.
+If you don't want to spend any money at all on a website, you could use social media like Facebook, Instagram, YouTube, Pinterest and Bluesky. It depends on what you do, and what audience you want to reach.
 
 The next step up would be to create a free website with a service like Weebly, Yola or Wordpress.com. You need to be careful of [lobster pot deals](/advice/budget-and-time/#lobster-pot), though. These are ones that are intended to draw you in and then trap you. They may only include two web pages, for example, and will not include your own domain name. This may not be obvious when you sign up, and quickly you realise you need to upgrade and start paying.
 
 Another approach is to create a website with a system like Jekyll, Gatsby or NextJs and host it on GitHub, Netlify or Vercel. This takes quite some technical knowledge, though, and if you haven't got that you're probably better off choosing another option.
 
 </div>
+</div>
 
-As ever, if you have any advice on this then feel free to contact me.EMAIL
+As ever, if you have any advice on this then feel free to contact me ([martin@martincookdesign.co.uk](mailto:martin@martincookdesign.co.uk)).

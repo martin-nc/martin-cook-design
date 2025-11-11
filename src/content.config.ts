@@ -9,10 +9,6 @@ const advice = defineCollection({
     title: z.string(),
     description: z.string(),
     order: z.number(),
-    image: z.object({
-      url: z.string(),
-      alt: z.string(),
-    }),
   }),
 });
 // Export a single `collections` object to register your collection(s)

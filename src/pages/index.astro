@@ -1,18 +1,32 @@
 ---
 const pageTitle = "Home";
-const description = "A test description";
-import { Image } from "astro:assets";
+const description =
+  "Professional web development for small to medium academic and scientific projects";
+import { Image, Picture } from "astro:assets";
+import myImage from "../assets/banner-large.jpg";
 import mugShot from "../assets/me2.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
-  <p>
+  <div class="full-width banner">
+    <Picture
+      src={myImage}
+      formats={["avif", "webp"]}
+      alt=""
+      layout="constrained"
+      priority
+    />
+    <div class="banner-text">
+      <div>Reliable website development for science and academia</div>
+    </div>
+  </div>
+
+  <p class="text-x-large">
     <strong>
-      Need a website for academic project, small business or sub-brand? Don't
-      want to deal with digital agencies, or you've hit the limit with site
-      builders like Wix and SquareSpace? Or perhaps you just want to talk
-      through what options might be best for you?
+      I create and maintain small to medium sized websites for science and
+      academia. I also work with others to write, edit and coordinate the
+      content for sites.
     </strong>
   </p>
   <p>
@@ -21,8 +35,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </p>
   <ul>
     <li>Creating and running large and small websites</li>
-    <li>Web graphic design</li>
     <li>Web writing and editing</li>
+    <li>Web graphic design</li>
     <li>
       Working with stakeholders to plan and implement redesigns, new features
       and new websites
@@ -32,45 +46,43 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </li>
     <li>User experience (UX) testing and reviews of site usability</li>
   </ul>
-  <p>
-    Now I have my own company specialising in small to medium academic projects.
-  </p>
-  <div class="tinted float-container">
-    <figure class="float-right">
-      <Image
-        src={mugShot}
-        alt="A photo of me"
-        layout="constrained"
-        width={225}
-      />
-      <figcaption>Me in 2025</figcaption>
-    </figure>
-    <h2>Contact</h2>
-    <p>
-      Just give me a call if you'd like to chat about what you'd like to do.
-      There's absolutely no pressure from my part.
-    </p>
-    <p>
-      Even if you just want a second opinion or bounce ideas off someone then
-      feel free to get in touch. I'm always interested in people's web projects,
-      and I don't charge for a chat.
-    </p>
-    <p class="text-primary text-large">
-      07965 235865<br />
-      <a href="mailto:martin@martincookweb.com">martin@martincookweb.com</a>
-    </p>
+  <div class="tinted float-container full-width">
+    <div class="container">
+      <figure class="float-right">
+        <Image
+          src={mugShot}
+          alt="A photo of me"
+          layout="constrained"
+          width={225}
+          loading="lazy"
+        />
+      </figure>
+      <h2 class="contact">Contact</h2>
+      <p>
+        Give me a call if you'd like to chat about what you'd like to do. I'm
+        always interested in people's web projects!
+      </p>
+      <p class="text-primary text-xx-large">
+        07455 624491<br />
+        <a href="mailto:martin@martincookdesign.co.uk"
+          >martin@martincookdesign.co.uk</a
+        >
+      </p>
+    </div>
   </div>
   <h2>Find out more</h2>
-  <p>
-    See the <a href="/how-help/">How I can help</a> page to see what I can do for
-    you, and for prices.
-  </p>
-  <p>
-    I've put some <a href="/advice/">advice pages</a> together to help you work out
-    which way to go with your web project, which technology might be best for your
-    project, and what to watch out for working with agencies (as I have!).
-  </p>
-  <p>
-    The <a href="/about/">About page</a> tells you more about my background and experience.
-  </p>
+  <ul>
+    <li>
+      See the <a href="/how-help/">How I can help</a> page to for what I can do,
+      and
+      <a href="/how-much-costs/">How much it costs</a> for prices.
+    </li>
+    <li>
+      See the <a href="/about/">About page</a> for more about my background and experience.
+    </li>
+    <li>
+      I've also put some <a href="/advice/">advice pages</a> together to help you
+      plan and implement your web project.
+    </li>
+  </ul>
 </BaseLayout>

@@ -13,11 +13,8 @@ On this page:
 
 - [General Data Protection Regulation (GDPR)](#general-data-protection-regulation-gdpr)
 - [Cookies](#cookies)
-  - [Changes ahead](#changes-ahead)
-  - [Avoiding cookie banners](#avoiding-cookie-banners)
 - [Accessibility](#accessibility)
 - [Copyright](#copyright)
-  - [Copyrighting your website](#copyrighting-your-website)
 
 ## General Data Protection Regulation (GDPR)
 
@@ -27,17 +24,17 @@ The EU provide a [checklist](https://gdpr.eu/checklist/) for you to make sure yo
 
 You also need to tell people how they can find out what personal information you have about them and how they can request its deletion.
 
-<div class="tinted">
+<div class="tinted full-width">
+<div class="container idea">
 
-### Things to do
+### Things to do for GDPR
 
 - Consult your organisation's lawyer, if there is one.
 - [Go through the EU checklist](https://gdpr.eu/checklist/).
 - Make sure you have a privacy statement on your site.
 
 </div>
-
----
+</div>
 
 ## Cookies
 
@@ -69,9 +66,10 @@ You can spare your users the inconvenience of cookie banners if you just use "st
 
 This doesn't mean you can't collect site statistics. [Plausible](https://plausible.io/), for example, claims to be a GDPR-compliant stats package. It does not use cookies, and so does not need a cookie banner. [Matomo](https://matomo.org/) is more fully-featured, and can be configured to not use cookies. They are both worth considering as alternatives to Google Analytics.
 
-<div class="tinted">
+<div class="tinted full-width">
+<div class="container idea">
 
-### Things to do
+### Things to do for cookies
 
 - Consult your organisation's lawyer, if there is one.
 - Make sure you have a cookie banner if you use non-essential cookies.
@@ -81,8 +79,7 @@ This doesn't mean you can't collect site statistics. [Plausible](https://plausib
 - If you only use non-essential cookies for website stats, consider switching to a stats package that does not use cookies.
 
 </div>
-
----
+</div>
 
 ## Accessibility
 
@@ -96,18 +93,18 @@ The international standards for accessibility are created by the World Wide Web 
 
 In the EU, UK and USA your website needs to have AA conformance. These guidelines can seem overwhelming, especially to a non-technical person, but remember that many may not apply to your site because they may concern a technology you don’t use. The W3C provide a [simple guide to checking accessibility](https://www.w3.org/WAI/test-evaluate/).
 
-<div class="tinted">
+<div class="tinted full-width">
+<div class="container idea">
 
-### Things to do
+### Things to do for accessibility
 
 - Go through the [simple guide to checking accessibility](https://www.w3.org/WAI/test-evaluate/) or the similar [UK government checklist](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one) for AA compliance.
 - Use a browser addon tool like [WAVE](https://wave.webaim.org/extension/) or [ARC](https://www.tpgi.com/arc-platform/arc-toolkit/) to check your site.
-- Test your site with a variety of people, including people with a variety of abilities (see Test often).
+- Test your site with a variety of people, including people with a variety of abilities (see [Test little and often](/advice/test-little-often/)).
 - Put an accessibility page on your website explaining what you have done to make your site accessible, what issues may be left, what you are doing about those and who to contact about accessibility issues. You will need to show that accessibility assessment is an ongoing process, and so put a date for each page revision.
 
 </div>
-
----
+</div>
 
 ## Copyright
 
@@ -121,12 +118,14 @@ For EU countries and the UK, copyright of a website and its contents is automati
 
 This can be something simple like "© [your name or your organisation's name], [year]" e.g. © Joe Bloggs, 2025. If you wanted to go further, you could add "Unauthorised use of the material on this website is strictly prohibited."
 
-<div class="tinted">
+<div class="tinted full-width">
+<div class="container idea">
 
-### Things to do
+### Things to do for copyright
 
 - Make sure you have permission to use all your images and long quotes. You may need to add image credits as a condition for using them.
 - Be careful your AI content has not been plagiarised.
 - Add a copyright notice to your footer.
 
+</div>
 </div>

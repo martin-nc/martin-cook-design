@@ -1,84 +1,576 @@
 ---
 const pageTitle = "About";
-const description = "About the web developer Martin Cook";
-import { Image } from "astro:assets";
-import mugShot from "../assets/me2.jpg";
+const description =
+  "The background, experience and portfolios of the web developer Martin Cook";
+import { Picture, Image } from "astro:assets";
+import uclLogo from "../assets/ucl-logo.png";
+import kingsLogo from "../assets/kings-logo.avif";
+import ihrLogo from "../assets/ihr-logo.svg";
+import elixirLogo from "../assets/elixir-logo.svg";
+import biohackathoneurope from "../assets/biohackathon-europe.jpg";
+import brainstorm1 from "../assets/brainstorm1.jpg";
+import brainstorm2 from "../assets/brainstorm2.jpg";
+import gbc from "../assets/gbc.jpg";
+import elixir1 from "../assets/elixir1.jpg";
+import elixir2 from "../assets/elixir2.jpg";
+import elixir2b from "../assets/elixir2b.jpg";
+import biohackathon from "../assets/biohackathon.jpg";
+import rdmkit from "../assets/rdmkit.jpg";
+import bycovid from "../assets/by-covid.jpg";
+import idtk from "../assets/idtk.jpg";
+import kings from "../assets/kings.jpg";
+import kings2 from "../assets/kings2.jpg";
+import turing from "../assets/turing-archive.jpg";
+import girton from "../assets/girton.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
+  <h2>Examples of web development</h2>
+  <p>Flick, scroll or use the arrow key to browse the examples.</p>
+  <article class="scroller">
+    <section>
+      <Picture
+        src={gbc}
+        alt="The Global Biodata Coalition website, with an image of ines connecting dots"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Global Biodata Coalition</h2>
+        <p class="text-grey mt-1">1 of 12</p>
+        <p class="mb-0">
+          I created a new theme (code base) for the existing design. The
+          previous theme was not accessible and the content providers found it
+          difficult to edit the site. I made a simpler code base that loaded
+          faster, was more accessible, and made it easier to edit the site.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={elixir2}
+        alt="Home page of the ELIXIR Europe websites, with circular images of people talking at a conference"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>ELIXIR Europe</h2>
+        <p class="text-grey mt-1">2 of 12</p>
+        <p class="mb-0">
+          ELIXR Europe is a project that aims to make it easier to find, share
+          and analyse life science data across Europe. It is funded by the
+          European Commission and operates across 21 countries. I worked there
+          from 2015 to 2024, and looked after this main website.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={elixir2b}
+        alt="The bottom half of the ELIXIR Europe home page showing a map of Europe plus boxes of short text about the organisation"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2 class="mt-2">ELIXIR Europe</h2>
+        <p class="text-grey mt-1">3 of 12</p>
+        <p class="mb-0">
+          The bottom half of the ELIXIR Europe home page, which has changed a
+          bit since I left. The site ran on Drupal and featured an intranet,
+          Single Sign On, several registration and application system plus
+          information pulled in from APIs.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={elixir1}
+        alt="The old home page of the ELIXIR Europe website, with boxes of photos of people discussing things in meetings"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>ELIXIR Europe</h2>
+        <p class="text-grey mt-1">4 of 12</p>
+        <p class="mb-0">
+          The first redesign I did of the ELIXIR Europe website. A Twitter feed
+          was in the grey box to the right. This screenshot was from early on in
+          the project (2015).
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={biohackathon}
+        alt="The home page of the BioHackathon Europe website, showing a crowd of developers waving at the camera"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>BioHackathon Europe</h2>
+        <p class="text-grey mt-1">5 of 12</p>
+        <p>
+          A site for an annual event that brought software developers, trainers
+          and bioinformaticians across Europe together to develop life science
+          resources. I was on the organising committee for the event. I made the
+          site with Jekyll hosted on GitHub.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={rdmkit}
+        alt="The RDMkit website wth boxes for navigation"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>RDMkit</h2>
+        <p class="mt-1 text-grey">6 of 12</p>
+        <p class="mb-0">
+          A community-driven site that gives advice about data management to
+          life scientists. I wasn't the developer on this site but was on the
+          Editorial Board, and worked with colleagues to guide the structure and
+          design, and coordinate the content. We all contributed via Pull
+          Requests on GitHub.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={bycovid}
+        alt="The BY-COVID project website with a short blurb about the project"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>BY-COVID</h2>
+        <p class="mt-1 text-grey">7 of 12</p>
+        <p class="mb-0">
+          This was a European Commission-funded project that aimed to make
+          infectious disease data easier to deposit and find. This would allow
+          scientists to respond quicker to new pandemics. A colleague designed
+          the site and I coded it with Gatsby, a React-based Javascript
+          framework.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={idtk}
+        alt="The Infectious Diseases Toolkit website, with boxes for navigation"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Infectious Diseases Toolkit (IDTk)</h2>
+        <p class="mt-1 text-grey">8 of 12</p>
+        <p class="mb-0">
+          This is a project like RDMkit, and again hosted on GitHub. It gave
+          guidance for anyone in life or social science who dealt with
+          infectious disease data. I wasn't the developer but was on the
+          Editorial Board, and worked with colleagues to guide the structure and
+          design, and coordinate the content.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={kings}
+        alt="King's College Cambridge website, with a photo of students studying in the library"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h21>King's College, Cambridge</h21>
+        <p class="mt-1 text-grey">9 of 12</p>
+        <p class="mb-0">
+          I ran the King's College, Cambridge website from 2008-15. I moved it
+          to Drupal and redesigned it twice. I developed an intranet and a High
+          Table booking system, and wrote most of the content, including almost
+          all the news stories. The screenshot is from 2013.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={kings2}
+        alt="Hand-written sketches and notes"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>King's College Archives</h2>
+        <p class="mt-1 text-grey">10 of 12</p>
+        <p class="mb-0">
+          I made some sub-brands whilst at King's. This one was for a guide to
+          the college archives. I also create a shop and a sub-brand for the
+          conference and dining department.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={turing}
+        alt="Hand-written sketches and notes"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Turing Digital Archive</h2>
+        <p class="text-grey mt-1">11 of 12</p>
+        <p class="mb-0">
+          A PHP/MySQL-based site where you could search images of Turing's
+          documents held in the King's College archives (Turing was a fellow at
+          King's). The search integrated with Zoomify, an image viewer that
+          allowed you to pan around and zoom into an image. The site was made in
+          2013. Apologies for the blurry screenshot. It's the only one I could
+          get.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
+        src={girton}
+        alt="University and Life Experience website showing old photos of young women rowing and chatting in Cambridge"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>University and Life Experience</h2>
+        <p class="text-grey mt-1">12 of 12</p>
+        <p class="mb-0">
+          This was a project at Girton College, Cambridge, that looked at the
+          experiences of the first women to graduate from Cambridge. It was a
+          custom PHP/MySQL application where you could search information about
+          the backgrounds and lives of these women. It was finished in 2015, but
+          sadly never went live.
+        </p>
+      </div>
+    </section>
+  </article>
+  <p class="mt-3">
+    I've also created a <strong
+      ><a
+        href="https://docs.google.com/presentation/d/1gbwU_oVCzgfv0rVYhEbUt1BtQnRbrGkrtxIzR1XBU_M/present"
+        target="_blank">slideshow of examples of my work</a
+      >
+    </strong> (opens a new tab), with notes on each example.
+  </p>
+  <h2>Examples of web writing</h2>
+  <ul class="mb-0">
+    <li>
+      <a
+        href="https://churchmonumentssociety.org/monument-of-the-month/of-rubble-and-remains-the-harvey-sarcophagus-hempstead-essex"
+        >Of Rubble and Remains: The Harvey Sarcophagus, Hempstead, Essex</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://docs.google.com/document/d/1MMe8buC2TJedvR9Sm3N7N670qWo9oTG3VYLlA45X2fA/edit?usp=sharing"
+        >Peralta</a
+      >: a feature for a journalism course at Birkbeck College, London (I got a
+      distinction!).
+    </li>
+
+    <li>
+      <a
+        href="https://web.archive.org/web/20120707102153/http://www.kings.cam.ac.uk/research/current-research/"
+        >The Devil's cancer</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905150950/http://www.kings.cam.ac.uk/research/current-research/burgwinkle.html"
+        >Troubadours, medieval erotica and the myth of a national language</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905141015/http://www.kings.cam.ac.uk/research/current-research/superconductors-ainslie.html"
+        >Saving space and energy with superconductors</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905141326/http://www.kings.cam.ac.uk/research/current-research/nationalism-weibye.html"
+        >The roots of German identity</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://web.archive.org/web/20150905154450/http://www.kings.cam.ac.uk/research/current-research/nk-cells-colucci.html"
+        >Investigating natural killers</a
+      >
+    </li>
+  </ul>
   <p>
-    I've spent 25 years working on different aspects of web development,
-    including:
+    See also the <a
+      href="https://docs.google.com/presentation/d/18e5906zAf_PPgP0eWhd5U33epUDo55f23BKXq7NY7I4/present"
+      >slideshow with more examples</a
+    >.
+  </p>
+
+  <h2>Where I've worked</h2>
+  <p>
+    I've spent 25 years working in web development. Here is a quick summary:
+  </p>
+  <h3 class="text-primary mt-3 border-bottom">1999-2003</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={uclLogo}
+        alt="The UCL logo"
+        layout="constrained"
+        width={150}
+      />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>Wellcome Department of Cognitive Neurology, UCL, London.</strong
+        >
+        I worked here after finishing an MSc in Neuroscience, and worked my first
+        website (for our lab). Note this institute is now called The Wellcome Centre
+        for Human Neuroimaging.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2003-2008</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image src={ihrLogo} alt="IHR logo" layout="constrained" width={150} />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>Institute of Historical Research, London.</strong>
+        My first full-time job as a web developer, as a junior and then as website
+        manager. I also started my own company making small academic websites.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2008-2015</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={kingsLogo}
+        alt="King's College logo"
+        layout="constrained"
+        width={150}
+      />
+    </div>
+    <div>
+      <p>
+        <strong>King's College, Cambridge.</strong> I oversaw the main website and
+        redesigned it twice. I wrote much of the content, made microsites and sub-brands,
+        and took photos for the site. I also carried on my own company.
+      </p>
+    </div>
+  </div>
+  <h3 class="text-primary mt-3 border-bottom">2015-2024</h3>
+  <div class="flex-container">
+    <div class="small">
+      <Image
+        src={elixirLogo}
+        alt="ELIXIR Europe logo"
+        layout="constrained"
+        height={60}
+      />
+    </div>
+    <div>
+      <p class="mb-0">
+        <strong>ELIXIR Europe</strong>
+        this is an EC-funded project that aims to make life science data in Europe
+        easier to find, share and analyse. Again, I redesigned the main site twice
+        and worked on websites and projects from around Europe. I closed my own company
+        when I started this job, since you weren't allowed to work outside the job.
+      </p>
+    </div>
+  </div>
+  <p class="mt-4">
+    I started my own company again after leaving ELIXIR Europe. See my <a
+      href="https://www.linkedin.com/in/martincook3/">LinkedIn profile</a
+    > for more about my past jobs.
+  </p>
+  <div class="tinted full-width">
+    <div class="container align-center">
+      <figure class="mt-3 mb-3">
+        <Picture
+          src={biohackathoneurope}
+          alt="A crowd of people looking at the camera, with an arrow pointing to one person"
+          layout="constrained"
+          width={700}
+          formats={["jpeg", "webp"]}
+          loading="lazy"
+          class="m-center height-auto"
+        />
+        <figcaption>
+          Me at the BioHackathon Europe 2023, Barcelona. This event brings
+          together software developers, bioinformaticians, data managers and
+          trainers to develop resources for the life sciences. The resources
+          could be software, standards or training materials. I was on the
+          BioHackathon organising committee.
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+  <h2>Tasks</h2>
+  <p>
+    These are the things I've done in the above workplaces and in my own
+    business.
   </p>
   <ul>
     <li>
-      Coding and scripting with a variety of technologies, including traditional
-      CMSs like Drupal and Wordpress, to flat-file systems like Jekyll and Grav,
-      and JavaScript frameworks like React (with Gatsby and Next.js);
+      <strong>Coding and scripting.</strong> I've used a variety of technologies,
+      including traditional PHP-based CMSs like Drupal and Wordpress, to flat-file
+      systems like Jekyll and Grav, and JavaScript frameworks like React (with Gatsby
+      and Next.js).
     </li>
-    <li>Researching, planning and designing new features and new websites;</li>
-    <li>User experience (UX) and user testing;</li>
     <li>
-      Web writing and editing (I've done courses in journalism and web writing).
-      I've written style guides for the sites I've worked on and coordinated
-      content delivery from across organisations;
+      <strong>Web design.</strong> I have designed sites based on existing brand
+      guidelines as well as created designs and logos for project from scratch.
     </li>
-    <li>Ensuring accessibility and privacy standards are met;</li>
-    <li>Server maintenance (Apache on CentOS and Debian);</li>
-    <li>Custom database development (MySQL/MariaDB);</li>
     <li>
-      Organising hackathons for European projects, and working in teams to
-      create strategy, training and style guides;
+      <strong>Web writing and editing.</strong> I've written much of the content
+      for the sites I've worked on, and written style guides to keep the content
+      consistent. I've also coordinated content delivery from people across the organisations.
     </li>
-    <li>Staff training.</li>
+    <li>
+      <strong>User experience (UX).</strong> I have run formal session with groups
+      as well as one-to-ones, to gather honest feedback.
+    </li>
+    <li>
+      <strong>Strategy.</strong> I have worked with stakeholders to establish the
+      priorities and primary users of the site. The resulting brief strategy document
+      helped guide the site content and features.
+    </li>
+    <li>
+      <strong>Legal and security aspects:</strong> I've been responsible for ensuring
+      accessibility, privacy and copyright regulations are met. I've also been responsibe
+      for the website and server security.
+    </li>
+    <li>
+      <strong>Server maintenance:</strong> I make no claims to be a server admin,
+      but occasionally I have had to maintain servers myself. These were Apache on
+      CentOS and Debian.
+    </li>
+    <li>
+      <strong>Digital imaging and photography:</strong> I have done a lot of image
+      editing and photography.
+    </li>
+    <li>
+      <strong>Database development:</strong> in earlier times, I did custom PHP/MySQL
+      development, where I designed the database (with normalisation etc).
+    </li>
+    <li>
+      <strong>Community projects.</strong> I have worked with teams on community
+      websites, and helped organise and run hackathons for European projects.
+    </li>
+    <li>
+      <strong>Staff training.</strong> I have trained some staff in basic web technologies
+      like HTML and CSS.
+    </li>
   </ul>
-  <p>See my LinkedIn profile.</p>
-  <h2>A little bio</h2>
+  <div class="full-width tinted">
+    <div class="container">
+      <div class="flex-container">
+        <div>
+          <Picture
+            src={brainstorm1}
+            alt="Hand-written sketches and notes"
+            layout="constrained"
+            width={400}
+            formats={["jpeg", "webp"]}
+            class="border"
+            loading="lazy"
+          />
+        </div>
+        <div>
+          <Picture
+            src={brainstorm2}
+            alt="Printouts of birth certificates and family trees stuck on white paper, with hand-written notes around them"
+            layout="constrained"
+            width={400}
+            class="border"
+            formats={["jpeg", "webp"]}
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <p class="align-center">
+        If I have to design a site from scratch, I like to get away from the
+        computer and gather design ideas on a piece of A2 paper. The first image
+        is of some doodles for ideas for the Turing Digital Archive website
+        (including copies some of Turing's own sketches). The second shows ideas
+        for a family history site I made, where I was looking at the design
+        elements of birth certificates and family trees, and using a mind map to
+        brainstorm. The banner on the home page shows some of these images.
+      </p>
+    </div>
+  </div>
+  <h2>Qualifications</h2>
+  <ul>
+    <li>Msc Neuroscience</li>
+    <li>BSc Psychology</li>
+    <li>CTEFLA (Certificate for Teaching English as a Foreign Language)</li>
+    <li>Diploma in Art and Design</li>
+    <li>Diploma in French (DELF B1)</li>
+  </ul>
+  <h2>Training</h2>
   <p>
-    Websites and applications are facades and it's sometimes hard to be sure
-    who's behind them and what credibility they have.
+    Web technologies change so fast that training is ongoing. I keep doing
+    online refreshers in the basic technologies (HTML, CSS, Javascript), and
+    currently have a subscription to <a href="https://laracasts.com/"
+      >Laracasts</a
+    > (PHP, Laravel, Javascript frameworks) and <a
+      href="https://learnjavascript.online/">Learn Javascript</a
+    >.
   </p>
   <p>
-    In the old days when we visited a shop in the bricks and mortar world we
-    knew what part of town it was in, we could see from the outside if it was
-    well kept or not, and we could tell from the staff how well run and
-    trustworthy it was. We don't have all those cues in the digital world, so
-    this is why I'm adding a short biography, just to make me more
-    three-dimensional!
+    I also do one-off courses. I'm currently doing one about UX at Coursera, and
+    did the W3C certificate in digital accessibility in Spring 2025.
   </p>
   <p>
-    I come from a village in the North-East of England, and left at 18 to do a
-    degree in Psychology in London. After this I got my first jobs: working in a
-    shop near Victoria Station, and then on the buses from Brixton Garage (quite
-    a life experience!).
-  </p>
-  <p>
-    Then I hitch-hiked around Europe a bit, did the <i lang="fr">vendange</i> (grape
-    picking) in France and Switzerland and lived on a kibbutz in Israel for six months.
-    It's hard to believe it now, but it was a fashionable thing for students to do
-    at the time.
-  </p>
-  <p>
-    On returning to London, I worked at the Royal Free Hospital School of
-    Medicine and did a part-time Masters in Neuroscience. I aimed to take a year
-    out and to start a PhD, but I went to South-East Asia and ended up staying
-    there nearly five years. I did a certificate in Teaching English as a
-    Foreign Language at the British Council in Kuala Lumpur and taught in
-    Malaysia, Singapore and Indonesia.
-  </p>
-  <p>
-    When I got back I worked in the Welcome Department of Cognitive Neurology at
-    UCL in London. I did a Foundation Course in Art and Design whilst I was
-    there (it was part-time), and helped make and maintain a department website
-    (1998).
-  </p>
-  <p>
-    In 2004 I got a job as a web developer at the Institute of Historical
-    Research in London, and have been a full-time developer since then.
-  </p>
-  <p>
-    I now live in a village near Cambridge with my partner and two daughters,
-    and learn and study all sorts of things.
+    I keep up my interest in art, design and photography. In 2025 I did a series
+    of courses in printmaking at the <a
+      href="https://www.curwenprintstudy.co.uk/">Curwen Print Centre</a
+    > (a renowned place to learn printmaking). Printmaking is a sort of precursor
+    to the mass communication of the web!
   </p>
 </BaseLayout>
