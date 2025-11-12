@@ -2,6 +2,7 @@
 title: Remember the core of SEO
 order: 7
 description: "One line of advice to help you think of being more visible in search engines."
+draft: true
 ---
 
 Search Engine Optimisation (SEO) is how you can configure your website to appear higher in search engine results. There is a huge amount written and discussed about this, and no shortage of authoritative-sounding advice about what you need to do.

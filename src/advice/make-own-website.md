@@ -2,6 +2,7 @@
 title: Making your own website
 order: 9
 description: "Things to consider if you want to make your own website but don't have technical skills"
+draft: false
 ---
 
 There are lots of ways to make your own website. You can use services like Wix, SquareSpace and Canva; you can create a site on WordPress.com or buy web hosting and use the tools your web host provides. None of these need technical knowledge, but here are a couple of things to consider.
@@ -47,7 +48,7 @@ Now you can choose a template that is a close fit to what you want. Remember you
 
 ### Text
 
-Remember that people who go on the web start off with a task in mind. Imagine you went on a long train journey and forgot your phone. You realise before you get on the train, and buy a magazine to read. On the journey you realise that actually the magazine is quite boring. There aren't any articles that interest you, but you've got nothing else so you push yourself through reading it: you paid for it and there's nothing else to do.
+Remember that people who go on the web start off with a task in mind. Imagine you went on a long train journey and forgot your phone. You realise before you get on the train, and buy a magazine to read. On the journey you realise that actually the magazine is quite boring. There aren't any articles that interest you, but you've got nothing else so you read it: you paid for it, and there's nothing else to do.
 
 Now imagine you find your phone. It was in your bag after all. You tap the web, and hop from site to site. Notice the difference in behaviour. With the magazine, the cost of not reading it (i.e. boredom) was more than you wanted to bear, so you pushed yourself to read, even though it wasn't what you hoped for.
 
