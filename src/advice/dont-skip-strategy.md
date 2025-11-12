@@ -21,7 +21,7 @@ What would you like people to do on your site? What about after visiting the sit
 ### Case study: Card sorting the goals
 
 <figure class="mb-2 float-right">
-<img src="../../src/assets/goal-sorting.jpg" alt="Cards with goals printed on lying on a table" width="400" class="m-center height-auto" />
+<img src="/images/goal-sorting.jpg" alt="Cards with goals printed on lying on a table" width="400" class="m-center height-auto" />
 <figcaption>Goal sorting</figcaption>
 </figure>
 
