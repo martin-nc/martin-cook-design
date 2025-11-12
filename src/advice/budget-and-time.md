@@ -2,7 +2,6 @@
 title: Think about budget and time
 description: "A few questions to help you plan the budget and time for a new website or application"
 order: 2
-draft: false
 ---
 
 After the [strategy questions](/dont-skip-strategy/), you’ll have an idea of the content and features you’d like. The following questions will give you an idea of the resources you might need, like the budget and time.
@@ -53,6 +52,6 @@ When thinking of the cost and scope of your project, you might want to consider 
 1. **Development:** the design, coding and testing of the site. Who is going to do this? Is it going to be ongoing?
 2. **Maintenance:** making sure problems are dealt with, and that content is kept up to date. Who is going to do this?
 3. **Leadership:** who is going to decide what content and features are needed, and take overall responsibility for the site? How much time will this take?
-4. **Infrastructure:** who is going to look after the technical side of the site (e.g. the server and website software)? This cost could be covered in your hosting package, or you could choose a system that does not require frequent updates.
+4. **Infrastructure:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost could be covered in your hosting package, or you could choose a system that does not require frequent updates.
 </div>
 </div>

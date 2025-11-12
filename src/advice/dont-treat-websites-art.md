@@ -2,7 +2,6 @@
 title: Don't treat websites like art
 order: 6
 description: "Why you should not do what is commonly done in development: treat websites and applications as artworks to look at."
-draft: false
 ---
 
 In his 2011 book <cite>Designing for Emotion</cite>, Aaron Walter proposed a hierarchy of user needs. The hierarchy progresses through functional, reliable, usable to pleasurable. If you fulfil all these needs then you give users "delight".

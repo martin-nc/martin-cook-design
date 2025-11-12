@@ -2,7 +2,6 @@
 title: Making your own website
 order: 9
 description: "Things to consider if you want to make your own website but don't have technical skills"
-draft: false
 ---
 
 There are lots of ways to make your own website. You can use services like Wix, SquareSpace and Canva; you can create a site on WordPress.com or buy web hosting and use the tools your web host provides. None of these need technical knowledge, but here are a couple of things to consider.

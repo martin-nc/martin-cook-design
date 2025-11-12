@@ -2,7 +2,6 @@
 title: "Don't skip the strategy"
 description: "Some things to think about when planning a new website, a redesign, or a new feature, particularly the goals and users of the site."
 order: 1
-draft: false
 ---
 
 This is the most overlooked step in website development. You can have the greatest graphic designers and technical people, but that won’t make your site good. What will make your site good is your ability to understand why your site exists and how it helps its users. Here are four questions to ask:

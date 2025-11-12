@@ -2,7 +2,6 @@
 title: Beware of false consensus and pluralistic ignorance
 order: 5
 description: "Avoid these common cognitive biases when your are developing a website or app."
-draft: false
 ---
 
 **False consensus** is a cognitive bias where you exaggerate your ability to guess what other people think. What's more, when you find you have predicted other people wrongly, instead of saying to yourself, "Oh, I got that wrong" and modifying your view, you dismiss these people as ignorant or exceptions and persist with the same view you had before.

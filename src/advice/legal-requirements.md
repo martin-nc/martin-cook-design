@@ -2,10 +2,6 @@
 title: Cover the legal requirements
 description: "Advice on covering legal requirements around privacy, accessibility and copyright for websites and applications."
 order: 3
-image:
-  url: "https://docs.astro.build/assets/rays.webp"
-  alt: "The Astro logo on a dark background with rainbow rays."
-draft: false
 ---
 
 **The points I mention below are pointers to get you started, and are not substitutes for legal advice.** You will need to consult your lawyer about legal aspects of your website or application.

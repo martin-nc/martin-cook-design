@@ -5,19 +5,11 @@ const description =
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Advice from "../components/Advice.astro";
 import { getCollection } from "astro:content";
-const allAdvice = (await getCollection("advice")).sort(
-  (a, b) => a.data.order - b.data.order
-);
-const astroSwiperOptions: AstroSwiperType = {
-  options: {
-    loop: true,
-    speed: 1000,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  },
-};
+const allAdvice = (
+  await getCollection("advice", ({ data }) => {
+    return data.draft !== true;
+  })
+).sort((a, b) => a.data.order - b.data.order);
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
