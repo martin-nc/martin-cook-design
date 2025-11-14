@@ -1,14 +1,28 @@
 ---
 const pageTitle = "Home";
 const description =
-  "Professional web development for small to medium academic and scientific projects";
+  "Professional web developer for small to medium academic, EC and scientific projects.";
 import { Image, Picture } from "astro:assets";
 import myImage from "../assets/banner-large.jpg";
 import mugShot from "../assets/me2.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Schema } from "astro-seo-schema";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
+  <Schema
+    item={{
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "Martin Cook Design",
+      description:
+        "Website of Martin Cook, a web developer who makes websites for science, academia and EC projects.",
+      url: "https://martincookdesign.co.uk",
+      image: "https://martincookdesign.co.uk/images/logo.svg",
+      keywords:
+        "developer, website, science, academia, EC, European Commission",
+    }}
+  />
   <div class="full-width banner">
     <Picture
       src={myImage}
@@ -24,8 +38,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
   <p class="text-x-large">
     <strong>
-      I create and maintain small to medium sized websites for science and
-      academia. I also work with others to write, edit and coordinate the
+      I create and maintain small to medium sized websites for science, academia
+      and EC projects. I also work with others to write, edit and coordinate the
       content for sites.
     </strong>
   </p>
