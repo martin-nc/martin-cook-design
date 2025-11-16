@@ -3,7 +3,8 @@ const pageTitle = "Home";
 const description =
   "Professional web developer for small to medium academic, EC and scientific projects.";
 import { Image, Picture } from "astro:assets";
-import myImage from "../assets/banner-large.jpg";
+import myImage from "../assets/banner-large.webp";
+import whatsApp from "../assets/whatsapp-button.svg";
 import mugShot from "../assets/me2.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { Schema } from "astro-seo-schema";
@@ -16,11 +17,11 @@ import { Schema } from "astro-seo-schema";
       "@type": "WebSite",
       name: "Martin Cook Design",
       description:
-        "Website of Martin Cook, a web developer who makes websites for science, academia and EC projects.",
+        "Website of Martin Cook, a web developer who makes websites for science, academia, Horizon Europe and EU-funded projects.",
       url: "https://martincookdesign.co.uk",
       image: "https://martincookdesign.co.uk/images/logo.svg",
       keywords:
-        "developer, website, science, academia, EC, European Commission",
+        "developer, website, science, academia, Horizon Europe, European Union",
     }}
   />
   <div class="full-width banner">
@@ -39,13 +40,13 @@ import { Schema } from "astro-seo-schema";
   <p class="text-x-large">
     <strong>
       I create and maintain small to medium sized websites for science, academia
-      and EC projects. I also work with others to write, edit and coordinate the
-      content for sites.
+      and EU-funded projects. I also work with others to write, edit and
+      coordinate the content for sites.
     </strong>
   </p>
   <p>
-    I am a web developer of 25 years' experience, who has worked in many aspects
-    of website development, including:
+    For 25 years I have worked in many aspects of website development,
+    including:
   </p>
   <ul>
     <li>Creating and running large and small websites</li>
@@ -73,15 +74,28 @@ import { Schema } from "astro-seo-schema";
       </figure>
       <h2 class="contact">Contact</h2>
       <p>
-        Give me a call if you'd like to chat about what you'd like to do. I'm
-        always interested in people's web projects!
+        Contact if you'd like to chat about what you'd like to do. I'm always
+        interested in people's web projects! I'm based just outside Cambridge,
+        so if you're anywhere near (or passing through) we could always meet in
+        person.
       </p>
-      <p class="text-primary text-xx-large">
-        07455 624491<br />
+      <div class="text-primary text-xx-large mt-0 mb-1">+44 7455 624491</div>
+      <div class="mb-3">
         <a href="mailto:martin@martincookdesign.co.uk"
           >martin@martincookdesign.co.uk</a
         >
-      </p>
+      </div>
+      <div>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/17455624491">
+          <Image
+            src={whatsApp}
+            alt="WhatsApp button"
+            layout="constrained"
+            width={190}
+            loading="lazy"
+          />
+        </a>
+      </div>
     </div>
   </div>
   <h2>Find out more</h2>
@@ -95,8 +109,8 @@ import { Schema } from "astro-seo-schema";
       See the <a href="/about/">About page</a> for more about my background and experience.
     </li>
     <li>
-      I've also put some <a href="/advice/">advice pages</a> together to help you
-      plan and implement your web project.
+      See the <a href="/insights/">insights pages</a> for ideas to help you plan
+      and implement a web project.
     </li>
   </ul>
 </BaseLayout>

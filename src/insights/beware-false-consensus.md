@@ -57,7 +57,7 @@ Just before launch, they organised a user testing session and found that people 
 
 What was interesting was the response of the web team and agency: they dismissed the testers and not representative, and kept the design as it was.
 
-In the CAF bank website relaunch (see Case Study in [Test little and often](/advice/test-little-often/)), many users felt frustrated that the official statements appeared to be blaming the users rather than the system. Even though the new system lacked key features, the statements from the bank seemed to imply users just needed to get used to it i.e. there's nothing wrong with it.
+In the CAF bank website relaunch (see Case Study in [Test little and often](/insights/test-little-often/)), many users felt frustrated that the official statements appeared to be blaming the users rather than the system. Even though the new system lacked key features, the statements from the bank seemed to imply users just needed to get used to it i.e. there's nothing wrong with it.
 
 </div>
 </div>

@@ -4,7 +4,7 @@ description: "A few questions to help you plan the budget and time for a new web
 order: 2
 ---
 
-After the [strategy questions](/dont-skip-strategy/), you’ll have an idea of the content and features you’d like. The following questions will give you an idea of the resources you might need, like the budget and time.
+After the [strategy questions](/insights/dont-skip-strategy/), you’ll have an idea of the content and features you’d like. The following questions will give you an idea of the resources you might need, like the budget and time.
 
 ## Will the site grow?
 

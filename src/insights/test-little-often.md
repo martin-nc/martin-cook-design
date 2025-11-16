@@ -11,7 +11,7 @@ Don't think this means you need to hire expensive consultants to organise formal
 ## Why getting feedback is crucial
 
 - **Improving usability is an iterative process.** If you test with two or three people early on it will immediately be clear if people can't see a button or can't find a menu item. You can fix this and then in the next round of tests your users will get past those issues and find the next round of issues. If you left the testing until just before the launch and got thirty people in a room to test the site, most of them would be stuck on not finding the button or menu item, and you wouldn't get a chance to fix the problems further on in the site.
-- **You need to verify you are on the right track.** The longer we work in a particular domain or organisation, the more we become a frog in a well. We assume the language we use is intuitive, and the knowledge we have is widespread. This is one way we fall prey to [false consensus](/advice/beware-false-consensus/). We need to verify that the language and the structure of the site is intuitive, and that its interface is as easy to use as we think it is.
+- **You need to verify you are on the right track.** The longer we work in a particular domain or organisation, the more we become a frog in a well. We assume the language we use is intuitive, and the knowledge we have is widespread. This is one way we fall prey to [false consensus](/insights/beware-false-consensus/). We need to verify that the language and the structure of the site is intuitive, and that its interface is as easy to use as we think it is.
 - **Users have brilliant ideas.** If you can't think what to call a group of pages, or you can't decide where to put some content on the site, then don't be afraid to ask your users. They often come up with fabulous ideas about how to organise and design your site.
 - **The key to commitment is involvement.** If you ask for people's feedback on a site, you are showing them that you value their opinion. This makes them take more of an interest in the site, and more likely to give feedback in the future. If you get feedback within an organisation, then talk to the people who normally don't get asked their opinion, like the people lower down the hierarchy. These people are often less immersed in jargon than the management, and they are usually more customer or user-facing, so they are more familiar with what users are interested in.
 
@@ -37,11 +37,11 @@ It also shows that it's better to base your decisions on what your users find in
 
 ## Who to ask for feedback
 
-Ideally, ask people from the target audience you identified in your [strategy](/advice/dont-skip-strategy/), but even a friend or a colleague not involved in the project is better than no-one. Anyone will notice that you can't find a menu, even the non-target audience.
+Ideally, ask people from the target audience you identified in your [strategy](/insights/dont-skip-strategy/), but even a friend or a colleague not involved in the project is better than no-one. Anyone will notice that you can't find a menu, even the non-target audience.
 
 The worst people to ask are the ones familiar the project, and the ones steeped in the organisation's jargon (typically senior managers).
 
-If you get feedback from someone with strong opinions, and who states authoritatively that "you need to do this" and "people won't like that", then be sure to balance their feedback with someone less opinionated. The most opinionated people aren't necessarily the most representative (see [Beware false consensus](/advice/beware-false-consensus/)).
+If you get feedback from someone with strong opinions, and who states authoritatively that "you need to do this" and "people won't like that", then be sure to balance their feedback with someone less opinionated. The most opinionated people aren't necessarily the most representative (see [Beware false consensus](/insights/beware-false-consensus/)).
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -50,7 +50,7 @@ If you get feedback from someone with strong opinions, and who states authoritat
 
 <figure class="float-right width-300">
 <img src="/images/caf-bank.jpg" alt="A screenshot of the CAF bank home page, with a huge photograph of two people giving a high five" width="300" />
-<figcaption>CAF Bank demonstrating NFD: Non-Functional Design. See also <a href="/advice/dont-treat-websites-art/">Don't treat websites as art</a>.</figcaption>
+<figcaption>CAF Bank demonstrating NFD: Non-Functional Design. See also <a href="/insights/dont-treat-websites-art/">Don't treat websites as art</a>.</figcaption>
 </figure>
 
 In the UK there is a bank called the Charities Aid Foundation (CAF) Bank. It is a bank used by charities to deposit their money and make payments. In June 2025 it relaunched its online banking service and website.

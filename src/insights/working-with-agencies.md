@@ -57,14 +57,14 @@ Dreamweaver was a piece of software that allowed non-technical people to make we
 
 Products like this today are Google for searching the web and Adobe Photoshop for editing images. You don't _need_ either.
 
-What's most important is to choose a system that suits your needs. Unless it's particulalry important for you to follow the fashion, don't chain yourself to a tent peg just because others have.
+What's most important is to choose a system that suits your needs. Unless it's particularly important for you to follow the fashion, don't chain yourself to a tent peg just because others have.
 
 </div>
 </div>
 
 ## Make sure they are aware of legal requirements
 
-It's surprising how many agencies are not aware of [legal requirements](/advice/legal-requirements/), especially when it comes to accessibility. Typical accessibility problems are low contrast between text and background, animations that start automatically and that the user can't stop, and pages you can't navigate with the Tab key.
+It's surprising how many agencies are not aware of [legal requirements](/insights/legal-requirements/), especially when it comes to accessibility. Typical accessibility problems are low contrast between text and background, animations that start automatically and that the user can't stop, and pages you can't navigate with the Tab key.
 
 ## Keep it easy to move systems
 

@@ -9,7 +9,7 @@ Search Engine Optimisation (SEO) is how you can configure your website to appear
 
 The major search engines like Google and Yahoo used to have a page of advice for “webmasters”. The pages don’t exist any more, but they gave the same advice: **have unique, interesting content in language natural to your users**.
 
-This is one reason why the [strategy questions](/advice/dont-skip-strategy/) are valuable. They will help you work out why your site is unique and useful, and what words and phrases people are looking for (see [Test little and often](/advice/test-little-often/)).
+This is one reason why the [strategy questions](/insights/dont-skip-strategy/) are valuable. They will help you work out why your site is unique and useful, and what words and phrases people are looking for (see [Test little and often](/insights/test-little-often/)).
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -33,7 +33,7 @@ I once made a site for a family historian. We thought about the questions someon
 
 We made that top-level menu item, and so prominent on the site. No other family historian in the region had done that, and very few had put their costs anywhere.
 
-The site did very well in search engine results because we could see people had specifically searched with phrases like “Family historian how much”. Again, it’s crucial to understand what your users want and what phrases they are looking for. Don't assume you can guess what they are looking for and what language is intuitive for them (see [Beware of false consensus](/advice/beware-false-consensus/)).
+The site did very well in search engine results because we could see people had specifically searched with phrases like “Family historian how much”. Again, it’s crucial to understand what your users want and what phrases they are looking for. Don't assume you can guess what they are looking for and what language is intuitive for them (see [Beware of false consensus](/insights/beware-false-consensus/)).
 
 </div>
 </div>

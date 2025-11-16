@@ -3,6 +3,8 @@ const pageTitle = "How I can help";
 const description =
   "Ways I can help with your website development, from coding and designing to writing, maintenance and support, and help with grant applications.";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import whatsApp from "../assets/whatsapp-button.svg";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
@@ -48,10 +50,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </ul>
   <h2>Help with grant applications</h2>
   <p>
-    If you are writing a grant application for a European Commission (EC)
-    project or another academic project and need an idea of cost then let me
-    know. I can help you think through the simplest technical solution, and
-    estimate a cost to put in the funding proposal.
+    If you are writing a grant application for a EU-funded project (like a
+    Horizon Europe project) or another academic project and need an idea of cost
+    then let me know. I can help you think through the simplest technical
+    solution, and estimate a cost to put in the funding proposal.
   </p>
   <!-- <h2>Training</h2>
   <p>
@@ -66,12 +68,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <div class="container">
       <h2 class="contact">Contact</h2>
       <p>Get in touch if you'd like to chat about your project.</p>
-      <p class="text-primary text-xx-large">
-        07455 624491<br />
+      <div class="text-primary text-xx-large mt-0 mb-1">+44 7455 624491</div>
+      <div class="mb-3">
         <a href="mailto:martin@martincookdesign.co.uk"
           >martin@martincookdesign.co.uk</a
         >
-      </p>
+      </div>
+      <div>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/17455624491">
+          <Image
+            src={whatsApp}
+            alt="WhatsApp button"
+            layout="constrained"
+            width={190}
+            loading="lazy"
+          />
+        </a>
+      </div>
     </div>
   </div>
   <h2>The technologies I can help with</h2>
@@ -103,12 +116,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       Python or Ruby-based applications like Django or the Ruby on Rails
       framework;
     </li>
-    <li>Building mobile apps;</li>
+    <li>building mobile apps.</li>
   </ul>
 
   <h2>Don't forget...</h2>
   <p>
-    I've added some <a href="/advice/">advice pages</a> to help you make more informed
-    decisions about your site.
+    I've added some <a href="/insights/">insights pages</a> to help you make more
+    informed decisions about your site.
   </p>
 </BaseLayout>

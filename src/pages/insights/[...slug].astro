@@ -3,7 +3,7 @@ import { getCollection, render } from "astro:content";
 import MarkdownPostLayout from "../../layouts/MarkdownAdviceLayout.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("advice", ({ data }) => {
+  const posts = await getCollection("insights", ({ data }) => {
     return import.meta.env.PROD ? data.draft !== true : true;
   });
   return posts.map((post) => ({

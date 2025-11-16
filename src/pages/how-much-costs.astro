@@ -2,13 +2,19 @@
 const pageTitle = "How much it costs";
 const description =
   "The cost of web development, content creation, support and web packages.";
+import { Image } from "astro:assets";
+import whatsApp from "../assets/whatsapp-button.svg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
   <p>
-    <strong>In general, I charge £80/&euro;90 an hour.</strong> The cost can be discounted
-    for ongoing work, like the long-term maintenance of a site.
+    <strong>In general, I charge £80/&euro;90 an hour,</strong> and take on work
+    from across Europe. I can also quote per project rather than per hour.
+  </p>
+  <p>
+    I do not charge VAT since my current turnover does not exceed the VAT
+    registration threshold in the UK.
   </p>
   <h2>Scoping your web project</h2>
   <p>
@@ -35,8 +41,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </li>
   </ul>
   <p>
-    The <a href="/advice/budget-and-time/">Budget and time page</a> also gives you
-    ideas on scoping your web project.
+    The <a href="/insights/budget-and-time/">Budget and time page</a> also gives
+    you ideas on scoping your web project.
   </p>
   <h2>Small site packages</h2>
   <p>
@@ -55,12 +61,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         Get in touch if you'd like to discuss the scope of your project or get a
         quote.
       </p>
-      <p class="text-primary text-xx-large">
-        07455 624491<br />
+      <div class="text-primary text-xx-large mt-0 mb-1">+44 7455 624491</div>
+      <div class="mb-3">
         <a href="mailto:martin@martincookdesign.co.uk"
           >martin@martincookdesign.co.uk</a
         >
-      </p>
+      </div>
+      <div>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/17455624491">
+          <Image
+            src={whatsApp}
+            alt="WhatsApp button"
+            layout="constrained"
+            width={190}
+            loading="lazy"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </BaseLayout>

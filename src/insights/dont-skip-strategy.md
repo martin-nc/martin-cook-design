@@ -38,7 +38,7 @@ It's important to get this clarity on why the site exists because it guides what
 
 In question 1 we looked at what the website or app should do for your organisation. Now we look at what it should do for your users.
 
-People visit a site for different purposes. What are these purposes? Make a list of them and take all the opportunities you can to ask your users why they they use your site. Don't assume you know all the reasons (see [Avoid false consensus and pluralistic ignorance](/advice/beware-false-consensus/) and [Test little and often](/advice/test-little-often/)). See if you can whittle it down to four or five main reasons.
+People visit a site for different purposes. What are these purposes? Make a list of them and take all the opportunities you can to ask your users why they they use your site. Don't assume you know all the reasons (see [Avoid false consensus and pluralistic ignorance](/insights/beware-false-consensus/) and [Test little and often](/insights/test-little-often/)). See if you can whittle it down to four or five main reasons.
 
 You might find that some users are looking for specialist information, whilst others are looking for general information. For example, if you run a scientific project there may be scientists who want all the technical details, and members of the general public who just want to know what the project’s about and why it’s important.
 

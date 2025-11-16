@@ -14,7 +14,7 @@ Unfortunately, the bottom layers of the hierarchy are often skipped, and instead
 
 When people in an organisation discuss them, the criterion for success is that they look cool, and not, "We've watched people use the site and people can find what they need to." In other words, the site is viewed primarily as a piece of art or visual design.
 
-To keep focusing on what's most important, we can ask the questions we looked at in [Don't skip the strategy](/advice/dont-skip-strategy/), like "Why does the website or app exist?"
+To keep focusing on what's most important, we can ask the questions we looked at in [Don't skip the strategy](/insights/dont-skip-strategy/), like "Why does the website or app exist?"
 
 <div class="tinted full-width mb-5">
 <div class="container idea">
@@ -25,7 +25,7 @@ People have different sensitivities to graphic design. Some people have strong f
 
 I've shown choices of three designs to people, and some people have gone into a close analysis of what they like or dislike, whereas others have looked blank and said, "What's the difference?"
 
-The aesthetically sensitive don't necessarily know the aesthetically indifferent exist (see [Beware of false consensus](/advice/beware-false-consensus/)). Individual differences in aesthetic sensitivity have been extensively studied by psychologists. For example, see [A new conception of visual aesthetic sensitivity](https://www.researchgate.net/publication/336286225_A_new_conception_of_visual_aesthetic_sensitivity) by Corradi _et al._ (2019) and its references.
+The aesthetically sensitive don't necessarily know the aesthetically indifferent exist (see [Beware of false consensus](/insights/beware-false-consensus/)). Individual differences in aesthetic sensitivity have been extensively studied by psychologists. For example, see [A new conception of visual aesthetic sensitivity](https://www.researchgate.net/publication/336286225_A_new_conception_of_visual_aesthetic_sensitivity) by Corradi _et al._ (2019) and its references.
 
 What ths means is that some of your users will hardly notice the effort you put into the appearance of your site. They are more likely to notice if they can't do what they want to do.
 
@@ -67,7 +67,7 @@ The site does not pass the base layer of Walton's Pyramid: functionality. Yet it
 
 There are a couple of other usability issues. The search form has no submit button, which may look clean, but how do you submit a search? You can press return, but that returns all records in the database, so how do you know the form submitted properly?
 
-The advanced search form does not save search terms. If you want to go back and tweak one term, then you have to type all our terms in again. Testing with one user would probably have flagged all this (see [Test little and often](/advice/test-little-often/)).
+The advanced search form does not save search terms. If you want to go back and tweak one term, then you have to type all our terms in again. Testing with one user would probably have flagged all this (see [Test little and often](/insights/test-little-often/)).
 
 </div>
 </div>

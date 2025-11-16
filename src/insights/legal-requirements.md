@@ -15,9 +15,9 @@ On this page:
 
 ## General Data Protection Regulation (GDPR)
 
-The EU and UK have similar laws to protect the privacy of website users (see the [GDPR overview](https://gdpr.eu/what-is-gdpr/)). The UK GDPR regulations were updated by the Data (Use and Access) Act 2025, but the principles are still the same.
+The EU and UK have similar laws to protect the privacy of website user. The UK GDPR regulations were updated by the Data (Use and Access) Act 2025, but the principles are still the same.
 
-The EU provide a [checklist](https://gdpr.eu/checklist/) for you to make sure you are complying. Basically, only gather personal information (like email addresses) when you have a legal basis for it and when people give informed consent. Publish a privacy statement saying what information you gather and why, how long you will keep the information, for what purposes, and who has access to it.
+The EU provide a checklist for you to make sure you are complying. Basically, only gather personal information (like email addresses) when you have a legal basis for it and when people give informed consent. Publish a privacy statement saying what information you gather and why, how long you will keep the information, for what purposes, and who has access to it.
 
 You also need to tell people how they can find out what personal information you have about them and how they can request its deletion.
 
@@ -28,6 +28,7 @@ You also need to tell people how they can find out what personal information you
 
 - Consult your organisation's lawyer, if there is one.
 - [Go through the EU checklist](https://gdpr.eu/checklist/).
+- [Look at the GDPR overview](https://gdpr.eu/what-is-gdpr/)
 - Make sure you have a privacy statement on your site.
 
 </div>
@@ -88,7 +89,7 @@ The international standards for accessibility are created by the World Wide Web 
 - **AA** (conform to most of the guidelines) and
 - **AAA** (conform to almost all guidelines).
 
-In the EU, UK and USA your website needs to have AA conformance. These guidelines can seem overwhelming, especially to a non-technical person, but remember that many may not apply to your site because they may concern a technology you don’t use. The W3C provide a [simple guide to checking accessibility](https://www.w3.org/WAI/test-evaluate/).
+In the EU, UK and USA your website needs to have AA conformance. These guidelines can seem overwhelming, especially to a non-technical person, but remember that many may not apply to your site because they may concern a technology you don’t use.
 
 <div class="tinted full-width">
 <div class="container idea">
@@ -97,7 +98,7 @@ In the EU, UK and USA your website needs to have AA conformance. These guideline
 
 - Go through the [simple guide to checking accessibility](https://www.w3.org/WAI/test-evaluate/) or the similar [UK government checklist](https://www.gov.uk/government/publications/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one/doing-a-basic-accessibility-check-if-you-cant-do-a-detailed-one) for AA compliance.
 - Use a browser addon tool like [WAVE](https://wave.webaim.org/extension/) or [ARC](https://www.tpgi.com/arc-platform/arc-toolkit/) to check your site.
-- Test your site with a variety of people, including people with a variety of abilities (see [Test little and often](/advice/test-little-often/)).
+- Test your site with a variety of people, including people with a variety of abilities (see [Test little and often](/insights/test-little-often/)).
 - Put an accessibility page on your website explaining what you have done to make your site accessible, what issues may be left, what you are doing about those and who to contact about accessibility issues. You will need to show that accessibility assessment is an ongoing process, and so put a date for each page revision.
 
 </div>

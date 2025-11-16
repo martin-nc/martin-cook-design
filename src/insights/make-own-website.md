@@ -8,7 +8,7 @@ There are lots of ways to make your own website. You can use services like Wix, 
 
 ## Study the pricing
 
-Try to think through what you need, not just now but in a year (see [Think about budget and time](/advice/budget-and-time/)). You will probably need:
+Try to think through what you need, not just now but in a year (see [Think about budget and time](/insights/budget-and-time/)). You will probably need:
 
 - a domain name,
 - an SSL certificate (this makes your site more secure, and stops browser warning about an insecure site),
@@ -28,7 +28,7 @@ Here are some questions you might want to ask yourself:
 
 The best general advice is: keep it simple. Don't get carried away with lots of animations and disingenuous marketing text. Most people don't care about that. Just have a clear structure and text that tells people what they need to know.
 
-It also helps to have an idea of who your site is for, and what they want to find or do (see [Don't skip the strategy](/advice/dont-skip-strategy/)).
+It also helps to have an idea of who your site is for, and what they want to find or do (see [Don't skip the strategy](/insights/dont-skip-strategy/)).
 
 ### Graphic design
 
@@ -41,7 +41,7 @@ Start by establishing your visual branding. This has four elements:
 
 Most of the "do-it-yourself" services offer design template that you can tweak. Before choosing a template, try drawing on a piece of paper what you would like your site to look like. You can have a piece of paper for each page of the site and think, "What needs to be on this page?"
 
-We mentioned wireframes on the [Test little and often page](/advice/test-little-often/#wireframes). This is where you just draw boxes to represent blocks of text and photographs, so you can quickly sketch what a site might look like.
+We mentioned wireframes on the [Test little and often page](/insights/test-little-often/#wireframes). This is where you just draw boxes to represent blocks of text and photographs, so you can quickly sketch what a site might look like.
 
 Now you can choose a template that is a close fit to what you want. Remember you can change the colours of the template to match your colour palette, so don't be put off if the template is in the wrong colours.
 
@@ -55,7 +55,7 @@ With the web, the cost of leaving a site is zero. If you don't see what you want
 
 ### Feedback
 
-In the [Test little and often page](/advice/test-little-often/) we talked about the importance of getting feedback. When you've got your site, ask for feedback. If possible, be next to someone and watch them use the site. Ideally you'd ask people who are you target audience to look at it, but even friends are better than nothing. They will tell you the most obviously confusing things.
+In the [Test little and often page](/insights/test-little-often/) we talked about the importance of getting feedback. When you've got your site, ask for feedback. If possible, be next to someone and watch them use the site. Ideally you'd ask people who are you target audience to look at it, but even friends are better than nothing. They will tell you the most obviously confusing things.
 
 <div class="tinted full-width mb-5">
 <div class="container idea">
@@ -64,7 +64,7 @@ In the [Test little and often page](/advice/test-little-often/) we talked about 
 
 If you don't want to spend any money at all on a website, you could use social media like Facebook, Instagram, YouTube, Pinterest and Bluesky. It depends on what you do, and what audience you want to reach.
 
-The next step up would be to create a free website with a service like Weebly, Yola or Wordpress.com. You need to be careful of [lobster pot deals](/advice/budget-and-time/#lobster-pot), though. These are ones that are intended to draw you in and then trap you. They may only include two web pages, for example, and will not include your own domain name. This may not be obvious when you sign up, and quickly you realise you need to upgrade and start paying.
+The next step up would be to create a free website with a service like Weebly, Yola or Wordpress.com. You need to be careful of [lobster pot deals](/insights/budget-and-time/#lobster-pot), though. These are ones that are intended to draw you in and then trap you. They may only include two web pages, for example, and will not include your own domain name. This may not be obvious when you sign up, and quickly you realise you need to upgrade and start paying.
 
 Another approach is to create a website with a system like Jekyll, Gatsby or NextJs and host it on GitHub, Netlify or Vercel. This takes quite some technical knowledge, though, and if you haven't got that you're probably better off choosing another option.
 
