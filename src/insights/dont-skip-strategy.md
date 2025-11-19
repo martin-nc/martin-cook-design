@@ -4,16 +4,25 @@ description: "Some things to think about when planning a new website, a redesign
 order: 1
 ---
 
-This is the most overlooked step in website development. You can have the greatest graphic designers and technical people, but that won’t make your site good. What will make your site good is your ability to understand why your site exists and how it helps its users. Here are four questions to ask:
+The basis of a good site is understanding why it exists. Here are four questions to ask:
 
 1. What do you want the site to do for you?
 2. Who are the users and what do they want?
 3. What is unique about your site?
 4. What content and features would give you what you want, the users what they want, and provide a unique experience?
 
+You might think, "Wait, I don't want to answer boring questions like that. I just want to get to the exciting bit of designing and coding and adding content." <strong>But you will answer questions 1 or 2 whether you think about them or not.</strong>
+
+Every time you decide, "We need this content on the home page" or "That content has to be more prominent" you are answering the questions of what's important to you and your users. You'll just answer them unconsciously rather than consciously. This means your answers will be inconsistent, and prone to the whims of the moment. By writing down and agreeing on questions 1-4 you will get a consistent basis for decision making, and the site will feel more coherent.
+
+<figure class="mt-6 mb-6">
+<img src="/images/venn-diagram.svg" alt="Cards with goals printed on lying on a table" width="500" class="m-center height-auto" />
+<figcaption>The overlap between what you want and what your users want (questions 1 and 2). Ideally, this overlap will be big and you can spend most time developing content and features in this area. To the left you have things that you want to promote, or are obliged to include, but which most of your users aren't interested in (funding acknowledgements, legal statements). To the right we have features or content your users would like to see but which you don't have the time, budget or expertise to offer.</figcaption>
+</figure>
+
 ## 1. What do you want the site to do for you?
 
-What would you like people to do on your site? What about after visiting the site? Do you want them to buy things, give to your charity, follow your project or join your organisation? Think of how your website can best help you. Convert those things into goals and put them in order.
+What would you like people to do on your site? Do you want them to buy things, give to your charity, follow your project, post about it on social media or join your organisation? Think of how your website can best help you. Convert those things into goals and put them in order.
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -25,11 +34,11 @@ What would you like people to do on your site? What about after visiting the sit
 <figcaption>Goal sorting</figcaption>
 </figure>
 
-I once worked for an organisation where I asked stakeholders what they thought the goals of the website should be. They each gave me four or five things they thought were important. What struck me was how different they were! The organisation had a five-year strategy with a mission statement and goals, but people had different interpretations of them.
+I once worked for an organisation where I asked stakeholders what they thought the goals of the website should be. Each of them gave me four or five things they thought were important. What struck me was how different they were! The organisation already had a strategy document with its objectives, but people had different interpretations of these objectives.
 
-I wrote the goals people had suggested on cards, and got the same people to sort them in order. This allowed them to see suggestions they hadn't thought of, and allowed me to average out what the stakeholders felt were most important. We arrived at the top three goals of the site, and got management approval.
+I wrote the website goals people had suggested on cards, and got the same people to sort them in order. This allowed them to see suggestions they hadn't thought of, and allowed me to average out what the stakeholders felt were most important. We arrived at the top three goals of the site.
 
-It's important to get this clarity on why the site exists because it guides what tasks to prioritise and what features to implement. A lack of common understanding of the site's goals leads to disagreements and an incoherent website.
+It's important to get this clarity on why the site exists because it helps you prioritise content and features. If you don't have a common understanding of the site's goals, you're more likely to get disagreements and an incoherent site.
 
 </div>
 </div>
@@ -54,18 +63,25 @@ If you are creating a new site for an organisation or project, this exercise wil
 
 Don't forget to look at sites in other domains and countries. If you are planning a site for a local wildlife project, for example, then look at local wildlife project sites across Europe, Canada or the US, as well as the more obvious ones in your own country.
 
-Also, what other local projects could be similar, but not about wildlife? Maybe there are local projects for tidying the neighbourhood. Are there any useful features from them that you could adopt on your site?
+Thinking about why your site is unique will help you when it comes to Search Engine Optimisation (SEO). This will be the subject of a future article.
 
 <div class="highlighted full-width case-study">
 <div class="container">
 
 ### Case study: Benefits vs descriptions
 
+<figure class="mb-2 float-right">
+<img src="/images/bic-pens.webp" alt="A box of Bic pens with the strapline down the side" width="400" class="m-center height-auto" />
+<figcaption>Bic highlighting benefits, not properties</figcaption>
+</figure>
+
 In a physical shop or supermarket the products come in packets or boxes with a phrase to express their benefits. That's because you sell on benefits, not descriptions.
 
-For example, on my desk is a box of cheap Bic biros. The box has one strapline: "Made to last". Bic have done their research and realised people fear that a cheap biro will stop working quickly. Bic have put their most important benefit up front: these biros will last. They haven't said, "These biros contain uniquely formulated ink" or "They are made of industry-standard hardened plastic". These statements don't say how the pens benefit the user.
+For example, on my desk is a box of cheap Bic biros. The box has one strapline: "Made to last". Bic have done their research and realised people fear that a cheap biro will stop working quickly. Bic have put their most important benefit up front: these biros will last.
 
-A website is like the box wrapping the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but who cares? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
+They haven't said, "These biros contain uniquely formulated ink" or "They are made of industry-standard hardened plastic". These statements don't say how the pens benefit the user.
+
+A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but who cares? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
 
 </div>
 </div>
@@ -74,9 +90,13 @@ A website is like the box wrapping the organisation. What would you say on your 
 
 This is where you bring questions 1, 2 and 3 together. There may be some things you need to include on your site that most people aren’t interested in, like legal information or funding acknowledgements. Often, though, there is an overlap between what you want on the site and what the users want to see.
 
-Is the site mostly information pages or is it going to be interactive (like an app)? Do you need a log-in area, a shopping cart, or a database of people or products? How can you do this in a way that is unique and memorable?
+Is the site mostly information pages or is it going to be interactive (like an app)? Do you need a log-in area, a shopping cart, or a database of people or products? How can you do this in a way that is unique and memorable for the user?
 
 Make a list of the features you require, and roughly how many pages. If your site will be more app-like, what will people need to be able to do?
+
+## Going forward
+
+Once you have a short document (less than two sides) with these four topics on, then you can use it as a basis for decision making. Remember that the document is a living document. Answering the questions above is an iterative process where you are continuously refining exactly what the site needs to do, who the users are and what they are looking for.
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -90,6 +110,11 @@ So you assemble a committee at your workplace and get going. You think about all
 Now here's the question: what is the probability your committee will design a home page that looks like Google's actual home page at [https://www.google.com/](https://www.google.com/)? I'd guess it's zero.
 
 Why? Well, I guarantee there will be at least one person on your committee who hates white space. They will view the page like a pizza base that you need to cover everywhere, to get the best value out of it. But apart from that, why wouldn't it be the same?
+
+<figure class="mt-6 mb-6">
+<img src="/images/google-screenshot.webp" alt="A screenshot of Google.com, showing the search in the middle" width="500" class="m-center height-auto" />
+<figcaption>An example of clear priorities. I don't say the design is great - it feels a bit unstructured to me - but it's useful to think, "What if I pared down my home page to this simplicity? What would be on it?"</figcaption>
+</figure>
 
 Here's a thought: it's because your committee does not have a clear enough idea of the main purpose of your organisation, and is not ruthless enough about prioritising this purpose. To help you prioritise your content and features, ask yourself, "How would Google design my home page?"
 
