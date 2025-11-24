@@ -15,7 +15,7 @@ When someone sets up a website for you, they may create several accounts. These 
 
 If this is the case, make sure the accounts are under your name, and that you have full access to them.
 
-Sometimes an agency will say, "We'll set everything up and look after it for you", which sounds helpful. The problem is, if you become unhappy with them, then you have no access to the accounts for your own site. It can be difficult to move to another provider. Owning the website accounts is a way some agencies use to lock you in.
+Sometimes an agency will say, "We'll set everything up and look after it for you", which sounds helpful. The problem is, if you become unhappy with them, then you have no access to the accounts for your own site. It can be difficult to move to another provider.
 
 ## Beware of "bespoke"
 
@@ -29,7 +29,7 @@ Some agencies offer bespoke solutions. "Bespoke" can have two meanings:
 
 ### Case study: emigrating developers
 
-I once worked on a large custom-built site at a university. One day the partners of the company who built the site had a bust-up. The only one who knew how the system worked emigrated to New Zealand. Development on the site slowed and the site had to be moved (at great expense) to another system.
+I once worked on a large custom-built site at a university. One day the company who built the site had a bust-up. One of the partners, the only one who knew how our system worked, emigrated to New Zealand. Development on the site slowed, and the site had to be moved (at great expense) to another system.
 
 **Lesson:** make sure you choose a well-documented system that is used by a lot of people. This means you will be able to find another agency to help you if you become unhappy with your current agency. This will be much more difficult with a bespoke system. If the agency adds some customisation to the system, make sure it is well documented.
 
@@ -45,19 +45,24 @@ Also, talk to other agencies to see what system they would choose and why. Remem
 <div class="tinted full-width mb-5">
 <div class="container idea">
 
-### The elephant analogy: beware of "industry standard" solutions
+### The elephant analogy
 
-A friend who went into sales told me about an analogy the sales trainer had given them. The trainer said that in the old days, when elephants were in circuses, the elephant trainer would chain young elephants to a thick stake in the ground. The elephant would pull all it could, but couldn't get away. Gradually it learned not to bother pulling the chain, and by the time the elephants were adults you could chain them to a stout tent peg, and they wouldn't walk away.
+<figure class="mb-2 float-right">
+<img src="/images/elephants.jpg" alt="A group of elephants walking across a grassy plain" width="400" class="m-center height-auto" />
+<figcaption>You, too, can be free</figcaption>
+</figure>
 
-The trainer said, "This is what you need to do to your customers: chain them mentally and emotionally to your product, so it doesn't cross their mind to walk away."
+A friend who went into sales told me this analogy about creating dependency on products. In the old days, he said, when elephants were in circuses, the elephant trainer would chain young elephants to a thick stake in the ground. The elephant would pull all it could, but couldn't get away.
 
-Here was my first experience of this at work. I was at party in the early naughties and someone asked me, "What do you do for a living?" I said, "I'm a web developer." They said, "Oh, I'd like to do that...but I haven't got Dreamweaver."
+Gradually it learned not to bother pulling the chain. By the time the elephants were adults you could chain them to a stout tent peg, and they wouldn't walk away.
 
-Dreamweaver was a piece of software that allowed non-technical people to make websites. It was the "industry standard" for this in its day. Macromedia, who made the software, had been so successful that they'd implanted the idea that to make a website you needed Dreamweaver. Of course, this wasn't true.
+My friend said, "This is what you need to do to your customers: chain them mentally and emotionally to your product, so it doesn't cross their mind to walk away."
 
-Products like this today are Google for searching the web and Adobe Photoshop for editing images. You don't _need_ either.
+Google has done this for web searching, for example, and Adobe Photoshop for image editing. You don't need either. You can walk away and use an alternative.
 
-What's most important is to choose a system that suits your needs. Unless it's particularly important for you to follow the fashion, don't chain yourself to a tent peg just because others have.
+In web development, some companies enchain people by promoting their software as encapsulating "modern best practices" or "modern web development". Best practices are principles, not software, and "modern" is not necessarily good, otherwise we'd be celebrating species loss and catastrophic weather events.
+
+What's most important is to choose a system that suits your needs. You don't need to chain yourself to the same tent peg as others.
 
 </div>
 </div>

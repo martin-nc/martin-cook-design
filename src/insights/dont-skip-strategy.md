@@ -9,7 +9,7 @@ The basis of a good site is understanding why it exists. Here are four questions
 1. What do you want the site to do for you?
 2. Who are the users and what do they want?
 3. What is unique about your site?
-4. What content and features would give you what you want, the users what they want, and provide a unique experience?
+4. What content and features would give you what you want, the users what they want, and provide a unique experience? This brings questions 1-3 together.
 
 You might think, "Wait, I don't want to answer boring questions like that. I just want to get to the exciting bit of designing and coding and adding content." <strong>But you will answer questions 1 or 2 whether you think about them or not.</strong>
 
@@ -22,7 +22,7 @@ Every time you decide, "We need this content on the home page" or "That content 
 
 ## 1. What do you want the site to do for you?
 
-What would you like people to do on your site? Do you want them to buy things, give to your charity, follow your project, post about it on social media or join your organisation? Think of how your website can best help you. Convert those things into goals and put them in order.
+What would you like people to do on your site? Do you want them to contribute to your project, post about it on social media or join your organisation? Think of how your website can best help you. Convert those things into goals and put them in order.
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -77,11 +77,11 @@ Thinking about why your site is unique will help you when it comes to Search Eng
 
 In a physical shop or supermarket the products come in packets or boxes with a phrase to express their benefits. That's because you sell on benefits, not descriptions.
 
-For example, on my desk is a box of cheap Bic biros. The box has one strapline: "Made to last". Bic have done their research and realised people fear that a cheap biro will stop working quickly. Bic have put their most important benefit up front: these biros will last.
+For example, on my desk is a box of cheap Bic biros. The box has one strapline: "Designed to last". Bic have done their research and realised people fear that a cheap biro will stop working quickly. Bic have put their most important benefit up front: these biros will last.
 
 They haven't said, "These biros contain uniquely formulated ink" or "They are made of industry-standard hardened plastic". These statements don't say how the pens benefit the user.
 
-A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but who cares? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
+A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but how does that help your user? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
 
 </div>
 </div>

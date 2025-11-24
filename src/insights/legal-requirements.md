@@ -21,7 +21,7 @@ The EU provide a checklist for you to make sure you are complying. Basically, on
 
 You also need to tell people how they can find out what personal information you have about them and how they can request its deletion.
 
-<div class="tinted full-width">
+<div class="tinted full-width mt-5 mb-6">
 <div class="container idea">
 
 ### Things to do for GDPR
@@ -64,7 +64,7 @@ You can spare your users the inconvenience of cookie banners if you just use "st
 
 This doesn't mean you can't collect site statistics. [Plausible](https://plausible.io/), for example, claims to be a GDPR-compliant stats package. It does not use cookies, and so does not need a cookie banner. [Matomo](https://matomo.org/) is more fully-featured, and can be configured to not use cookies. They are both worth considering as alternatives to Google Analytics.
 
-<div class="tinted full-width">
+<div class="tinted full-width mt-5 mb-6">
 <div class="container idea">
 
 ### Things to do for cookies
@@ -91,7 +91,7 @@ The international standards for accessibility are created by the World Wide Web 
 
 In the EU, UK and USA your website needs to have AA conformance. These guidelines can seem overwhelming, especially to a non-technical person, but remember that many may not apply to your site because they may concern a technology you don’t use.
 
-<div class="tinted full-width">
+<div class="tinted full-width mt-5 mb-6">
 <div class="container idea">
 
 ### Things to do for accessibility
@@ -116,14 +116,14 @@ For EU countries and the UK, copyright of a website and its contents is automati
 
 This can be something simple like "© [your name or your organisation's name], [year]" e.g. © Joe Bloggs, 2025. If you wanted to go further, you could add "Unauthorised use of the material on this website is strictly prohibited."
 
-<div class="tinted full-width">
+<div class="tinted full-width mt-5 mb-6">
 <div class="container idea">
 
 ### Things to do for copyright
 
 - Make sure you have permission to use all your images and long quotes. You may need to add image credits as a condition for using them.
 - Be careful your AI content has not been plagiarised.
-- Add a copyright notice to your footer.
+- Consider adding a copyright notice to your footer.
 
 </div>
 </div>

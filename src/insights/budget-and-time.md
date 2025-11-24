@@ -29,6 +29,11 @@ If you want a more sophisticated system, with a shopping cart or a log-in area, 
 
 ### Beware of lobster pot pricing
 
+<figure class="mb-2 float-right width-300">
+<img src="/images/lobster.jpg" alt="A lobster in the sea" width="300" class="m-center height-auto" />
+<figcaption>"What's this? A Free Starter Plan? Sounds like a deal. I'll never need that $200/month upgrade."</figcaption>
+</figure>
+
 A common business model is to offer a free or cheap tier of a service, and then whack the price up as soon as you need anything extra. By this time you have committed to the system, and you discover the system is hard to move from, so you're trapped.
 
 Some Wordpress plugins and services like Webflow, Wix, Netlify and SquareSpace work like this. Of course, it's fair to charge for products, but be aware that moving from one pricing tier to another can be a big price jump.
@@ -42,6 +47,10 @@ When researching website services, look at what you get in different price tiers
 
 Sometimes a site is created for a project that only lasts three years. This is especially true in academia. In this case, you need to use a technology that you can just leave after the project ends, and that doesn't need maintenance. WordPress, for example, requires ongoing maintenance, so may not be the best choice here.
 
+## Is AI going to help?
+
+Don't assume that AI can do everything for you, and therefore make the site cheap. It may save time, but the site or new features will still need planning with human beings, and it will need ongoing coordination with them to update or add new content. Also, the code and text will still need checking by someone who knows what they're doing.
+
 <div class="tinted full-width">
 <div class="container idea">
 
@@ -49,7 +58,7 @@ Sometimes a site is created for a project that only lasts three years. This is e
 
 When thinking of the cost and scope of your project, you might want to consider the four themes in web governance:
 
-1. **Development:** the design, coding and testing of the site. Who is going to do this? Is it going to be ongoing?
+1. **Development:** the design, coding and testing of the site or new features for the site. Who is going to do this? Is it going to be ongoing?
 2. **Maintenance:** making sure problems are dealt with, and that content is kept up to date. Who is going to do this?
 3. **Leadership:** who is going to decide what content and features are needed, and take overall responsibility for the site? How much time will this take?
 4. **Infrastructure:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost could be covered in your hosting package, or you could choose a system that does not require frequent updates.

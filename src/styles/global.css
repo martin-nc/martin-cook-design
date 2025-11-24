@@ -80,7 +80,7 @@ h2 + ul {
 
 h3 {
   font-family: "Poppins", sans-serif;
-  margin: 0.5rem 0;
+  margin: 0.75rem 0;
   font-weight: 500;
 }
 
@@ -760,4 +760,5 @@ figure {
   background: transparent url("/images/light-bulb.svg") left top no-repeat;
   background-size: 25px;
   padding-left: 35px;
+  margin-bottom: 1rem;
 }

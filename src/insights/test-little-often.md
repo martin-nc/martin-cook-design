@@ -2,6 +2,7 @@
 title: Test little and often
 order: 4
 description: "Why you should try out your website or app on a few people throughout the development cycle, and not wait until the launch."
+draft: true
 ---
 
 Watching people use your website is an enlightening and humbling experience. It is also essential, if you want your site to be as intuitive as possible.
