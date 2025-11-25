@@ -60,7 +60,7 @@ My friend said, "This is what you need to do to your customers: chain them menta
 
 Google has done this for web searching, for example, and Adobe Photoshop for image editing. You don't need either. You can walk away and use an alternative.
 
-In web development, some companies enchain people by promoting their software as encapsulating "modern best practices" or "modern web development". Best practices are principles, not software, and "modern" is not necessarily good, otherwise we'd be celebrating species loss and catastrophic weather events.
+In web development, some companies enchain people by promoting their software as encapsulating "modern best practices" or "modern web development". Best practices are not software, and "modern" is not necessarily good, otherwise we'd be celebrating species loss and catastrophic weather events.
 
 What's most important is to choose a system that suits your needs. You don't need to chain yourself to the same tent peg as others.
 
