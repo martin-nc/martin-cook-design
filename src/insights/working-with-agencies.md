@@ -6,7 +6,7 @@ description: "Advice for working with agencies when you develop your website or 
 
 ## Make sure you own the web accounts
 
-When someone sets up a website for you, they may create several accounts. These may include:
+When someone sets up a website for you, they may create several accounts. These could include:
 
 - A web hosting account to buy your domain name and your hosting;
 - A Google account so you can use Google Analytics on your site;

@@ -12,9 +12,9 @@ Is the site likely to need more complex features in six months, or will it stay 
 
 ## How much time have you got to maintain the site?
 
-It's easy to get excited and ambitious at the start of a web project, but try to think realistically about how much time you have. Time-dependent content like blogs, news and events need to be updated regularly, which can add up to a lot of work. This is especially true if you want a picture to go with each item. It quickly becomes time-consuming to find the right picture.
+It's easy to get excited and ambitious at the start of a web project, but try to think realistically about how much time you have. Time-dependent content like blogs, news and events need to be updated regularly, and add up to a lot of work. This is especially true if you want a picture to go with each item. It's time-consuming to find good pictures.
 
-If you're not sure if you have the time or personnel, and if these features are not critical, then you may want to avoid them at first.
+If you're not sure if you have the time or personnel, and if these features are not critical, then avoid them at first.
 
 ## Where will you get photos?
 

@@ -47,7 +47,7 @@ It's important to get this clarity on why the site exists because it helps you p
 
 In question 1 we looked at what the website or app should do for your organisation. Now we look at what it should do for your users.
 
-People visit a site for different purposes. What are these purposes? Make a list of them and take all the opportunities you can to ask your users why they they use your site. Don't assume you know all the reasons (see [Avoid false consensus and pluralistic ignorance](/insights/beware-false-consensus/) and [Test little and often](/insights/test-little-often/)). See if you can whittle it down to four or five main reasons.
+People visit a site for different purposes. What are these purposes? Make a list of them and take all the opportunities you can to ask your users why they they use your site. Don't assume you know all the reasons. See if you can whittle it down to four or five main reasons.
 
 You might find that some users are looking for specialist information, whilst others are looking for general information. For example, if you run a scientific project there may be scientists who want all the technical details, and members of the general public who just want to know what the project’s about and why it’s important.
 
@@ -81,7 +81,7 @@ For example, on my desk is a box of cheap Bic biros. The box has one strapline: 
 
 They haven't said, "These biros contain uniquely formulated ink" or "They are made of industry-standard hardened plastic". These statements don't say how the pens benefit the user.
 
-A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but how does that help your user? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
+A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but why should anyone care? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
 
 </div>
 </div>
@@ -107,7 +107,7 @@ Imagine that Google had forgotten to create a home page. They say to you, "Look,
 
 So you assemble a committee at your workplace and get going. You think about all the products Google has: the search, maps, Gmail, Drive, YouTube, Chrome, Gemini, Docs, Android, and so on. Then you design the home page.
 
-Now here's the question: what is the probability your committee will design a home page that looks like Google's actual home page at [https://www.google.com/](https://www.google.com/)? I'd guess it's zero.
+Now here's the question: what is the probability your committee will design a home page that looks like Google's actual home page at [https://www.google.com/](https://www.google.com/)? I'd guess it's close to zero.
 
 Why? Well, I guarantee there will be at least one person on your committee who hates white space. They will view the page like a pizza base that you need to cover everywhere, to get the best value out of it. But apart from that, why wouldn't it be the same?
 

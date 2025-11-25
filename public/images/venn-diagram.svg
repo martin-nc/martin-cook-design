@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 947 578" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-344.282,-410.042)">
+<svg width="100%" height="100%" viewBox="0 0 947 577" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-344.282,-410.542)">
         <g transform="matrix(1.33112,0,0,1.33112,231.697,-174.871)">
-            <circle cx="355.772" cy="656.477" r="215.935" style="fill:rgb(223,234,234);stroke:rgb(75,107,119);stroke-width:2.25px;"/>
+            <circle cx="355.772" cy="656.477" r="215.935" style="fill:rgb(223,234,234);stroke:rgb(75,107,119);stroke-width:1.5px;"/>
         </g>
         <g transform="matrix(1.33112,0,0,1.33112,377.697,-174.871)">
-            <circle cx="355.772" cy="656.477" r="215.935" style="fill:rgb(223,234,234);stroke:rgb(75,107,119);stroke-width:2.25px;"/>
+            <circle cx="355.772" cy="656.477" r="215.935" style="fill:rgb(223,234,234);stroke:rgb(75,107,119);stroke-width:1.5px;"/>
         </g>
         <g transform="matrix(1.33112,0,0,1.33112,231.697,-174.871)">
-            <path d="M410.613,865.374C317.958,841.081 249.52,756.708 249.52,656.477C249.52,556.246 317.958,471.873 410.613,447.58C503.269,471.873 571.707,556.246 571.707,656.477C571.707,756.708 503.269,841.081 410.613,865.374Z" style="fill:rgb(237,201,84);stroke:rgb(75,107,119);stroke-width:2.25px;"/>
+            <path d="M410.613,865.374C317.958,841.081 249.52,756.708 249.52,656.477C249.52,556.246 317.958,471.873 410.613,447.58C503.269,471.873 571.707,556.246 571.707,656.477C571.707,756.708 503.269,841.081 410.613,865.374Z" style="fill:rgb(237,201,84);stroke:rgb(75,107,119);stroke-width:1.5px;"/>
         </g>
         <g transform="matrix(1,0,0,1,323,-2.28882e-05)">
             <g transform="matrix(30,0,0,30,668.367,433.65)">

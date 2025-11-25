@@ -445,6 +445,10 @@ div {
   margin-top: 2rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .tinted {
   background: var(--light-green);
   padding: var(--padding) 0;
