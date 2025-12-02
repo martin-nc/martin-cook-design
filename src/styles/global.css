@@ -854,13 +854,13 @@ footer {
 
 /* Responsive variants */
 @media (max-width: 960px) {
-  .process-line {
+  .process-cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .process-line {
+  .process-cards {
     grid-template-columns: 1fr;
   }
 }
