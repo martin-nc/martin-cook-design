@@ -12,7 +12,7 @@ Is the site likely to need more complex features in six months, or will it stay 
 
 ## How much time have you got to maintain the site?
 
-It's easy to get excited and ambitious at the start of a web project, but try to think realistically about how much time you have. Time-dependent content like blogs, news and events need to be updated regularly, and add up to a lot of work. This is especially true if you want a picture to go with each item. It's time-consuming to find good pictures.
+It's easy to get excited and ambitious at the start of a web project, but think realistically about how much time you have. Time-dependent content like blogs, news and events need to be updated regularly, and add up to a lot of work. This is especially true if you want a picture to go with each item. It's time-consuming to find good pictures.
 
 If you're not sure if you have the time or personnel, and if these features are not critical, then avoid them at first.
 
@@ -36,7 +36,7 @@ If you want a more sophisticated system, with a shopping cart or a log-in area, 
 
 A common business model is to offer a free or cheap tier of a service, and then whack the price up as soon as you need anything extra. By this time you have committed to the system, and you discover the system is hard to move from, so you're trapped.
 
-Some Wordpress plugins and services like Webflow, Wix, Netlify and SquareSpace work like this. Of course, it's fair to charge for products, but be aware that moving from one pricing tier to another can be a big price jump.
+Some Wordpress plugins and services like Webflow, Wix, Netlify and SquareSpace work like this. Of course, it's fair to charge for products, but be aware that moving from one pricing tier to another can mean a big price jump.
 
 When researching website services, look at what you get in different price tiers. Also, if you need any addons/plugins, like an integration with Mailchimp to show your newsletters on your site, then how much is that? Does the addon/plugin work on a freemium model as well? Will it be enough to stay on the free tier, or would you need to pay more?
 
@@ -49,7 +49,7 @@ Sometimes a site is created for a project that only lasts three years. This is e
 
 ## Is AI going to help?
 
-Don't assume that AI can do everything for you, and therefore make the site cheap. It may save time, but the site or new features will still need planning with human beings, and it will need ongoing coordination with them to update or add new content. Also, the code and text will still need checking by someone who knows what they're doing.
+Don't assume that AI can do everything for you, and therefore make the site cheap. It may save time in the short term, but the site or new features will still need planning with human beings, and it will need ongoing coordination with them to update or add new content. Also, the code and text will still need checking by someone who knows what they're doing.
 
 <div class="tinted full-width">
 <div class="container idea">
@@ -61,6 +61,6 @@ When thinking of the cost and scope of your project, you might want to consider 
 1. **Development:** the design, coding and testing of the site or new features for the site. Who is going to do this? Is it going to be ongoing?
 2. **Maintenance:** making sure problems are dealt with, and that content is kept up to date. Who is going to do this?
 3. **Leadership:** who is going to decide what content and features are needed, and take overall responsibility for the site? How much time will this take?
-4. **Infrastructure:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost could be covered in your hosting package, or you could choose a system that does not require frequent updates.
+4. **Infrastructure:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost may be covered in your hosting package, or you could choose a system that does not require frequent updates.
 </div>
 </div>

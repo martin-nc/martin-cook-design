@@ -6,18 +6,24 @@ order: 1
 
 The basis of a good site is understanding why it exists. Here are four questions to ask:
 
+<div class="circle-list mt-4">
+
 1. What do you want the site to do for you?
 2. Who are the users and what do they want?
 3. What is unique about your site?
 4. What content and features would give you what you want, the users what they want, and provide a unique experience? This brings questions 1-3 together.
 
-You might think, "Wait, I don't want to answer boring questions like that. I just want to get to the exciting bit of designing and coding and adding content." <strong>But you will answer questions 1 or 2 whether you think about them or not.</strong>
+</div>
 
-Every time you decide, "We need this content on the home page" or "That content has to be more prominent" you are answering the questions of what's important to you and your users. You'll just answer them unconsciously rather than consciously. This means your answers will be inconsistent, and prone to the whims of the moment. By writing down and agreeing on questions 1-4 you will get a consistent basis for decision making, and the site will feel more coherent.
+You might think, "Wait, I don't want to answer boring questions like that. I just want to get to the exciting bit of making a website." <strong>But you will answer questions 1 or 2 whether you think about them or not.</strong>
 
-<figure class="mt-6 mb-6">
-<img src="/images/venn-diagram.svg" alt="Cards with goals printed on lying on a table" width="500" class="m-center height-auto" />
-<figcaption>The overlap between what you want and what your users want (questions 1 and 2). Ideally, this overlap will be big and you can spend most time developing content and features in this area. To the left you have things that you want to promote, or are obliged to include, but which most of your users aren't interested in (funding acknowledgements, legal statements). To the right we have features or content your users would like to see but which you don't have the time, budget or expertise to offer.</figcaption>
+Every time you decide, "We need this content on the home page" or "That content has to be more prominent", you are answering the questions of what's important to you and your users. You will just answer the questions unconsciously rather than consciously. This means your answers will be inconsistent since they will depend on what seems a good idea to you and your colleagues at that moment, which might vary from meeting to meeting.
+
+By writing down and agreeing on the answers to questions 1-4 you will get a consistent basis for decision making, and the site will feel more coherent.
+
+<figure class="mt-7 mb-6">
+<img src="/images/venn-diagram.svg" alt="A venn diagram showing two circles overlapping" width="500" class="m-center height-auto mb-3" />
+<figcaption><p>The overlap between what you want and what your users want (questions 1 and 2). Ideally, this overlap will be big and you can spend most time developing content and features in this area. </p><p>Outside the overlap to the <strong>left</strong> you have things that you want to promote, or are obliged to include, but which most of your users aren't interested in (funding acknowledgements, legal statements). To the <strong>right</strong> we have features or content your users would like to see but which you don't have the time, budget or expertise to offer.</p></figcaption>
 </figure>
 
 ## 1. What do you want the site to do for you?
@@ -34,11 +40,13 @@ What would you like people to do on your site? Do you want them to contribute to
 <figcaption>Goal sorting</figcaption>
 </figure>
 
-I once worked for an organisation where I asked stakeholders what they thought the goals of the website should be. Each of them gave me four or five things they thought were important. What struck me was how different they were! The organisation already had a strategy document with its objectives, but people had different interpretations of these objectives.
+I once worked for an organisation where I asked stakeholders what they thought the goals of the website should be. Each of them gave me four or five things they thought were important. What struck me was how different they were!
+
+The organisation already had a strategy document with its objectives, but people had different interpretations of these objectives.
 
 I wrote the website goals people had suggested on cards, and got the same people to sort them in order. This allowed them to see suggestions they hadn't thought of, and allowed me to average out what the stakeholders felt were most important. We arrived at the top three goals of the site.
 
-It's important to get this clarity on why the site exists because it helps you prioritise content and features. If you don't have a common understanding of the site's goals, you're more likely to get disagreements and an incoherent site.
+<strong>It's important to get this clarity on why the site exists because it helps you prioritise content and features.</strong> If you don't have a common understanding of the site's goals, you're more likely to get disagreements and an incoherent site.
 
 </div>
 </div>
@@ -59,7 +67,7 @@ Why should people visit your site rather than a similar one? It’s worth lookin
 
 Note down ideas that might be useful for your own site, and what ideas to avoid. You can make a spreadsheet with columns like: "Name of site", ""Main sections", "Good ideas", "Things to avoid" and "Notes".
 
-If you are creating a new site for an organisation or project, this exercise will tell you things like what color schemes your competitors use, and so which ones you should avoid.
+If you are creating a new site for an organisation or project, this exercise will tell you things like what colour schemes your competitors use, and so which ones you should avoid.
 
 Don't forget to look at sites in other domains and countries. If you are planning a site for a local wildlife project, for example, then look at local wildlife project sites across Europe, Canada or the US, as well as the more obvious ones in your own country.
 
@@ -103,7 +111,7 @@ Once you have a short document (less than two sides) with these four topics on, 
 
 ### Case study: Designing the Google home page
 
-Imagine that Google had forgotten to create a home page. They say to you, "Look, this is really embarrassing, but we forgot to make a home page. Do you think you could get a committee together and design one for us?"
+Imagine that Google had forgotten to create a home page. They say to you, "Look, this is really embarrassing, but do you think you could get a committee together and design a home page for us?"
 
 So you assemble a committee at your workplace and get going. You think about all the products Google has: the search, maps, Gmail, Drive, YouTube, Chrome, Gemini, Docs, Android, and so on. Then you design the home page.
 
