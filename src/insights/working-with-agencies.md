@@ -6,22 +6,22 @@ description: "Advice for working with agencies when you develop your website or 
 
 ## Make sure you own the web accounts
 
-When someone sets up a website for you, they may create several accounts. These could include:
+When someone makes a website for you, they may create several accounts. These could include:
 
 - A web hosting account to buy your domain name and your hosting;
 - A Google account so you can use Google Analytics on your site;
-- An Adobe account so you can use a font from Adobe Fonts on your site;
+- An Adobe account so you can use a font from Adobe Fonts;
 - An account with a theme or plug-in provider (for WordPress, for example).
 
 If this is the case, make sure the accounts are under your name, and that you have full access to them.
 
-Sometimes an agency will say, "We'll set everything up and look after it for you", which sounds helpful. The problem is, if you become unhappy with them, then you have no access to the accounts for your own site. It can be difficult to move to another provider.
+Sometimes an agency will say, "We'll set everything up and look after it for you", which sounds helpful. The problem is, if you become unhappy with the agency, then you have no access to the accounts for your own website. It can be difficult to move to another agency.
 
 ## Beware of "bespoke"
 
 Some agencies offer bespoke solutions. "Bespoke" can have two meanings:
 
-1. The agency select standard components from a well-known system like WordPress or Drupal. For example, they may select the most appropriate plugins for WordPress to suit your needs. This type of "bespoke" is fine because plugins for systems like this are usually well-tested and documented.
+1. The agency selects standard components from a well-known system like WordPress or Drupal. For example, they may select the most appropriate plugins for WordPress to suit your needs. This type of "bespoke" is fine because plugins for systems like this are usually well-tested and documented.
 2. The agency provide their own in-house system, which has not been thoroughly tested by a community around the world, and is not publicly documented. This is not so good. It means you rely entirely on the company to update and run your website.
 
 <div class="highlighted full-width case-study">
@@ -41,6 +41,8 @@ I once worked on a large custom-built site at a university. One day the company 
 Some agencies prefer one particular system, like WordPress, Drupal or Next.js. This is understandable because it takes a long time to master a particular technology. However, this system might not suit your needs. Ask them why their particular choice is right for you, and what alternatives there are.
 
 Also, talk to other agencies to see what system they would choose and why. Remember, the system they choose can have a big impact on the running costs of the site. Ask how much the site will cost per year to run.
+
+Try a demo of the system that the agency suggests, to see what it is like. Try updating text in a page, adding an image or an image aligned next to a block of text. If you can, try a demo of other systems, so you can make a comparison of which is easier to use.
 
 <div class="tinted full-width mb-5">
 <div class="container idea">
@@ -82,3 +84,11 @@ If the agency recommends a particular system then ask colleagues, friends and fa
 One thing to bear in mind is that open source solutions like WordPress and Drupal can be configured differently. Just because one site on a system is hard to edit, it doesn't mean that another site on the same system will be the same.
 
 In proprietary system like Wix, SquareSpace and Webflow, though, the systems are more standardised.
+
+## Ask about long-term commitments
+
+Occasionally, I've been asked to take over a website made by an agency, because the agency had stopped replying to emails, or only replied sporadically. It seemed like the agency enjoyed doing the glamorous bit of creating the site and launching it, but got bored of maintaining it. They'd moved on to new projects, or perhaps found they had taken on more clients than they could serve.
+
+Whatever the reason, if you want a long-term relationship, it might be worth asking if your agency has long-term clients, how long they have worked together, and how frequently they do updates for these clients.
+
+The agency may offer an official Service Level Agreement for ongoing support, where you pay per month, but this may be an expensive option if you only need occasional updates.

@@ -17,13 +17,13 @@ The basis of a good site is understanding why it exists. Here are four questions
 
 You might think, "Wait, I don't want to answer boring questions like that. I just want to get to the exciting bit of making a website." <strong>But you will answer questions 1 or 2 whether you think about them or not.</strong>
 
-Every time you decide, "We need this content on the home page" or "That content has to be more prominent", you are answering the questions of what's important to you and your users. You will just answer the questions unconsciously rather than consciously. This means your answers will be inconsistent since they will depend on what seems a good idea to you and your colleagues at that moment, which might vary from meeting to meeting.
+Every time you make a decision like "We need this content on the home page" or "That content has to be more prominent", you are answering questions 1 and 2. You are deciding what is most important to you and your users, but you are deciding unconsciously. As a result, your decisions will be inconsistent because they will depend on what appears a good idea at that moment, which might vary from meeting to meeting.
 
 By writing down and agreeing on the answers to questions 1-4 you will get a consistent basis for decision making, and the site will feel more coherent.
 
 <figure class="mt-7 mb-6">
 <img src="/images/venn-diagram.svg" alt="A venn diagram showing two circles overlapping" width="500" class="m-center height-auto mb-3" />
-<figcaption><p>The overlap between what you want and what your users want (questions 1 and 2). Ideally, this overlap will be big and you can spend most time developing content and features in this area. </p><p>Outside the overlap to the <strong>left</strong> you have things that you want to promote, or are obliged to include, but which most of your users aren't interested in (funding acknowledgements, legal statements). To the <strong>right</strong> we have features or content your users would like to see but which you don't have the time, budget or expertise to offer.</p></figcaption>
+<figcaption><p>The overlap between what you want and what your users want (questions 1 and 2). Ideally, this overlap will be large and you can spend most time developing content and features in this area. </p><p>Outside the overlap to the <strong>left</strong> you have things that you want to promote, or are obliged to include, but which most of your users aren't interested in (funding acknowledgements, legal statements). To the <strong>right</strong> we have features or content your users would like to see but which you don't have the time, budget or expertise to offer.</p></figcaption>
 </figure>
 
 ## 1. What do you want the site to do for you?
@@ -57,9 +57,9 @@ In question 1 we looked at what the website or app should do for your organisati
 
 People visit a site for different purposes. What are these purposes? Make a list of them and take all the opportunities you can to ask your users why they they use your site. Don't assume you know all the reasons. See if you can whittle it down to four or five main reasons.
 
-You might find that some users are looking for specialist information, whilst others are looking for general information. For example, if you run a scientific project there may be scientists who want all the technical details, and members of the general public who just want to know what the project’s about and why it’s important.
+You might find that some people are looking for specialist information, whilst others are looking for a general overview. For example, if you run a scientific project there may be scientists who want all the technical details, but also members of the public who just want to know what the project’s about.
 
-If you put the technical details on the home page, then the chances are the general public will leave. If you want to appeal to both audiences, then prioritise the more general one. Put accessible information on the landing pages to draw people in, and link to specialist, jargon-filled information deeper in the site.
+If you put the technical details on the home page, then the chances are the general public will leave. If you want to appeal to both audiences, then prioritise the more general one. Put accessible information on the landing pages to draw people in, and link to specialist, jargon-filled information, deeper in the site.
 
 ## 3. What is unique about your site?
 
@@ -89,7 +89,7 @@ For example, on my desk is a box of cheap Bic biros. The box has one strapline: 
 
 They haven't said, "These biros contain uniquely formulated ink" or "They are made of industry-standard hardened plastic". These statements don't say how the pens benefit the user.
 
-A website is like the box around the organisation. What would you say on your box? It is common, especially in academia, to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but why should anyone care? When thinking about how you are unique, think of unique benefits to people, not numbers and descriptions.
+A website is like the box around the organisation. What would you say on your box? It is common to describe things: "We have 87 services running in 12 different countries", "We work with over 15 institutes"...but why should anyone care? When thinking about how you are unique, think of unique benefits to people, not just numbers and descriptions.
 
 </div>
 </div>
@@ -104,7 +104,9 @@ Make a list of the features you require, and roughly how many pages. If your sit
 
 ## Going forward
 
-Once you have a short document (less than two sides) with these four topics on, then you can use it as a basis for decision making. Remember that the document is a living document. Answering the questions above is an iterative process where you are continuously refining exactly what the site needs to do, who the users are and what they are looking for.
+Once you have a short document (less than two sides) with these four topics on, then you can use it as a basis for decision making. Make sure the person ultimately responsible for the website signs it off, so they support the priorities of the website.
+
+Also, remember that the document is a living document. Answering the questions above is an iterative process where you are continuously refining exactly what the site needs to do, who the users are and what they are looking for. **You need to keep interacting with your users and the people across your organisation to make sure the document stays relevant.**
 
 <div class="highlighted full-width case-study">
 <div class="container">
@@ -117,7 +119,7 @@ So you assemble a committee at your workplace and get going. You think about all
 
 Now here's the question: what is the probability your committee will design a home page that looks like Google's actual home page at [https://www.google.com/](https://www.google.com/)? I'd guess it's close to zero.
 
-Why? Well, I guarantee there will be at least one person on your committee who hates white space. They will view the page like a pizza base that you need to cover everywhere, to get the best value out of it. But apart from that, why wouldn't it be the same?
+Why? There will be at least one person on your committee who hates white space. They will view the page like a pizza base that you need to smother with content, to get the best value out of it. But apart from that, why wouldn't it be the same?
 
 <figure class="mt-6 mb-6">
 <img src="/images/google-screenshot.webp" alt="A screenshot of Google.com, showing the search in the middle" width="500" class="m-center height-auto" />

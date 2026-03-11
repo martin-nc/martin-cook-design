@@ -49,7 +49,7 @@ Sometimes a site is created for a project that only lasts three years. This is e
 
 ## Is AI going to help?
 
-Don't assume that AI can do everything for you, and therefore make the site cheap. It may save time in the short term, but the site or new features will still need planning with human beings, and it will need ongoing coordination with them to update or add new content. Also, the code and text will still need checking by someone who knows what they're doing.
+AI is hugely helpful and time-saving, but a site or new feature will still need planning with human beings, and it will need ongoing coordination with them to update or add new content. Also, the code and text from AI will still need checking by someone who knows what they're doing. So yes, it can help, but it needs supervision.
 
 <div class="tinted full-width">
 <div class="container idea">
@@ -58,9 +58,9 @@ Don't assume that AI can do everything for you, and therefore make the site chea
 
 When thinking of the cost and scope of your project, you might want to consider the four themes in web governance:
 
-1. **Development:** the design, coding and testing of the site or new features for the site. Who is going to do this? Is it going to be ongoing?
-2. **Maintenance:** making sure problems are dealt with, and that content is kept up to date. Who is going to do this?
+1. **Development:** the planning, design, coding and testing of the site, or new features for the site. Who is going to do this? Is it going to be ongoing?
+2. **Content maintenance:** making sure problems are dealt with, and that content is kept up to date. Who is going to do this?
 3. **Leadership:** who is going to decide what content and features are needed, and take overall responsibility for the site? How much time will this take?
-4. **Infrastructure:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost may be covered in your hosting package, or you could choose a system that does not require frequent updates.
+4. **Technical maintenance:** who is going to look after the technology the site runs on (e.g. the server and website software)? This cost may be covered in your hosting package, or you could choose a system that does not require frequent updates.
 </div>
 </div>

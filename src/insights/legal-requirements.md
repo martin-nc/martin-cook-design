@@ -46,7 +46,7 @@ These regulations gave rise to the rather infamous cookie banner, and they state
 - Allow people to access your website or app even if they did not consent to cookies
 - Make it easy for people to withdraw their consent at a later date.
 
-"Strictly necessary" cookies are those essential for the site to function. For example, when you log in to a site, a cookie is set in your browser so you can be identified as logged in. If the cookie was not there, you would be logged out every time you visited a new page. Other examples include cookies for shopping carts or for security (to verify the connection between your browser and the website has not been intercepted).
+"Strictly necessary" cookies are those essential for the site to function. For example, when you log in to a site, a cookie is set in your browser so you can be identified as logged in. If the cookie was not there, you would be logged out every time you visited a new page. Other examples include cookies for shopping carts or for security (to verify that the connection between your browser and the website has not been intercepted).
 
 Common cookies that are **not** strictly necessary include Google Analytics cookies to gather site statistics and user behaviour, and functional cookies to remember site preferences.
 
@@ -90,6 +90,8 @@ The international standards for accessibility are created by the World Wide Web 
 - **AAA** (conform to almost all guidelines).
 
 In the EU, UK and USA your website needs to have AA conformance. These guidelines can seem overwhelming, especially to a non-technical person, but remember that many may not apply to your site because they may concern a technology you don’t use.
+
+**It is a legal requirement for public sector organisations in the UK to have an accessibility statement on their website, and it is a legal requirement for both public and private sector organisations in the EU to have an accessibility statement.**
 
 <div class="tinted full-width mt-5 mb-6">
 <div class="container idea">
