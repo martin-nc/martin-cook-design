@@ -11,10 +11,10 @@
   --grey-xlight: #ccc;
   --light: #efefef;
   --padding: 2rem;
-  --font-size-xxlarge: 1.4rem;
-  --font-size-xlarge: 1.2rem;
-  --font-size-large: 1.1rem;
+  --font-size-xxlarge: 1.5rem;
+  --font-size-xlarge: 1.3rem;
+  --font-size-large: 1.2rem;
   --font-size: 1.1rem;
-  --font-size-small: 1rem;
+  --font-size-small: .95rem;
   --font-size-xsmall: calc(var(--font-size) * 0.8);
 }

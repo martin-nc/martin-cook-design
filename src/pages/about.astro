@@ -21,6 +21,7 @@ import idtk from "../assets/idtk.jpg";
 import kings from "../assets/kings.jpg";
 import kings2 from "../assets/kings2.jpg";
 import turing from "../assets/turing-archive.jpg";
+import suffolk from "../assets/suffolk-wills.jpg";
 import girton from "../assets/girton.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
@@ -31,8 +32,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <article class="scroller">
     <section>
       <Picture
+        src={suffolk}
+        alt="The Suffolk Wills website, with a map of Suffolk on it"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Suffolk Wills</h2>
+        <p class="text-grey mt-1">1 of 13</p>
+        <p class="mb-0">
+          In beta at the moment, but <a href="https://suffolkwills.org">live</a>. I digitised wills from sixteenth-century Suffolk, created a data schema to describe them, and analysed them to see how they changed over time and what they tell us about the culture of this period.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
         src={gbc}
-        alt="The Global Biodata Coalition website, with an image of ines connecting dots"
+        alt="The Global Biodata Coalition website, with an image of lines connecting dots"
         layout="constrained"
         width={550}
         formats={["jpeg", "webp"]}
@@ -41,7 +60,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Global Biodata Coalition</h2>
-        <p class="text-grey mt-1">1 of 12</p>
+        <p class="text-grey mt-1">2 of 13</p>
         <p class="mb-0">
           I created a new theme (code base) for the existing design. The
           previous theme was not accessible and the content providers found it
@@ -62,7 +81,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>ELIXIR Europe</h2>
-        <p class="text-grey mt-1">2 of 12</p>
+        <p class="text-grey mt-1">3 of 13</p>
         <p class="mb-0">
           ELIXR Europe is a project that aims to make it easier to find, share
           and analyse life science data across Europe. It is funded by the
@@ -83,7 +102,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2 class="mt-2">ELIXIR Europe</h2>
-        <p class="text-grey mt-1">3 of 12</p>
+        <p class="text-grey mt-1">4 of 13</p>
         <p class="mb-0">
           The bottom half of the ELIXIR Europe home page, which has changed a
           bit since I left. The site ran on Drupal and featured an intranet,
@@ -104,7 +123,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>ELIXIR Europe</h2>
-        <p class="text-grey mt-1">4 of 12</p>
+        <p class="text-grey mt-1">5 of 13</p>
         <p class="mb-0">
           The first redesign I did of the ELIXIR Europe website. A Twitter feed
           was in the grey box to the right. This screenshot was from early on in
@@ -124,7 +143,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>BioHackathon Europe</h2>
-        <p class="text-grey mt-1">5 of 12</p>
+        <p class="text-grey mt-1">6 of 13</p>
         <p>
           A site for an annual event that brought software developers, trainers
           and bioinformaticians across Europe together to develop life science
@@ -145,7 +164,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>RDMkit</h2>
-        <p class="mt-1 text-grey">6 of 12</p>
+        <p class="mt-1 text-grey">7 of 13</p>
         <p class="mb-0">
           A community-driven site that gives advice about data management to
           life scientists. I wasn't the developer on this site but was on the
@@ -167,7 +186,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>BY-COVID</h2>
-        <p class="mt-1 text-grey">7 of 12</p>
+        <p class="mt-1 text-grey">8 of 13</p>
         <p class="mb-0">
           This was a European Commission-funded project that aimed to make
           infectious disease data easier to deposit and find. This would allow
@@ -189,7 +208,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Infectious Diseases Toolkit (IDTk)</h2>
-        <p class="mt-1 text-grey">8 of 12</p>
+        <p class="mt-1 text-grey">9 of 13</p>
         <p class="mb-0">
           This is a project like RDMkit, and again hosted on GitHub. It gave
           guidance for anyone in life or social science who dealt with
@@ -211,7 +230,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h21>King's College, Cambridge</h21>
-        <p class="mt-1 text-grey">9 of 12</p>
+        <p class="mt-1 text-grey">10 of 13</p>
         <p class="mb-0">
           I ran the King's College, Cambridge website from 2008-15. I moved it
           to Drupal and redesigned it twice. I developed an intranet and a High
@@ -232,7 +251,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>King's College Archives</h2>
-        <p class="mt-1 text-grey">10 of 12</p>
+        <p class="mt-1 text-grey">11 of 13</p>
         <p class="mb-0">
           I made some sub-brands whilst at King's. This one was for a guide to
           the college archives. I also create a shop and a sub-brand for the
@@ -252,7 +271,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Turing Digital Archive</h2>
-        <p class="text-grey mt-1">11 of 12</p>
+        <p class="text-grey mt-1">12 of 13</p>
         <p class="mb-0">
           A PHP/MySQL-based site where you could search images of Turing's
           documents held in the King's College archives (Turing was a fellow at
@@ -275,7 +294,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>University and Life Experience</h2>
-        <p class="text-grey mt-1">12 of 12</p>
+        <p class="text-grey mt-1">13 of 13</p>
         <p class="mb-0">
           This was a project at Girton College, Cambridge, that looked at the
           experiences of the first women to graduate from Cambridge. It was a
