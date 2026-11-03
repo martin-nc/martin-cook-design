@@ -19,8 +19,8 @@ function toggleNavigation() {
 
 // This function closes an open disclosure if a user tabs away from the last anchor element in the list. It is reliant on the ul container having a class to check whether the relatedTarget is within the disclosure. If not, it will close.
 function handleBlur() {
-  const navList = event.currentTarget.closest(".main-nav-list");
-  if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
+  const navList = e.currentTarget.closest(".main-nav-list");
+  if (!e.relatedTarget || !navList.contains(e.relatedTarget)) {
     closeNavigation();
   }
 }

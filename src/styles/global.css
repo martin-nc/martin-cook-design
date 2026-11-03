@@ -30,7 +30,7 @@ body {
   height: 100%;
 }
 
-body > footer {
+body>footer {
   position: sticky;
   top: 100vh;
 }
@@ -132,13 +132,13 @@ h4 {
 }
 
 /* Adjust spacing when a heading follows tinted sections */
-.tinted + h3 {
+.tinted+h3 {
   margin-top: 2rem;
 }
 
 /* Headings followed by copy blocks */
-h2 + p,
-h2 + ul {
+h2+p,
+h2+ul {
   margin-top: 0.75rem;
 }
 
@@ -180,7 +180,7 @@ ul.inline {
 }
 
 /* Remove extra spacing when a UL follows a P */
-p + ul {
+p+ul {
   margin-top: -0.5rem;
 }
 
@@ -546,12 +546,15 @@ footer {
 .text-small {
   font-size: var(--font-size-small);
 }
+
 .text-large {
   font-size: var(--font-size-large);
 }
+
 .text-x-large {
   font-size: var(--font-size-xlarge);
 }
+
 .text-xx-large {
   font-size: var(--font-size-xxlarge);
 }
@@ -559,6 +562,7 @@ footer {
 .text-primary {
   color: var(--dark-green);
 }
+
 .text-grey {
   color: var(--grey);
 }
@@ -574,6 +578,7 @@ footer {
 .align-center {
   text-align: center;
 }
+
 .align-right {
   text-align: right;
 }
@@ -599,9 +604,11 @@ footer {
   margin-bottom: 3rem;
   background-color: var(--dark-green);
   color: var(--white);
+
   a {
     color: var(--white);
   }
+
   li::marker {
     color: var(--white);
   }
@@ -612,9 +619,11 @@ footer {
 .m-0 {
   margin: 0;
 }
+
 .mt-0 {
   margin-top: 0;
 }
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -622,21 +631,27 @@ footer {
 .mt-1 {
   margin-top: 0.25rem;
 }
+
 .mt-2 {
   margin-top: 0.5rem;
 }
+
 .mt-3 {
   margin-top: 1rem;
 }
+
 .mt-4 {
   margin-top: 1.5rem;
 }
+
 .mt-5 {
   margin-top: 2rem;
 }
+
 .mt-6 {
   margin-top: 2.5rem;
 }
+
 .mt-7 {
   margin-top: 3rem;
 }
@@ -644,18 +659,23 @@ footer {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+
 .mb-3 {
   margin-bottom: 1rem;
 }
+
 .mb-4 {
   margin-bottom: 1.5rem;
 }
+
 .mb-5 {
   margin-bottom: 2rem;
 }
+
 .mb-6 {
   margin-bottom: 2.5rem;
 }
@@ -686,6 +706,7 @@ footer {
 .p-r-0 {
   padding-right: 0 !important;
 }
+
 .p-l-0 {
   padding-left: 0 !important;
 }
@@ -725,7 +746,7 @@ footer {
     h2 {
       margin-top: 0;
 
-      + p {
+      +p {
         margin-top: 0.5rem;
       }
     }
@@ -781,13 +802,13 @@ footer {
 ----------------------------------------------------------- */
 
 .scroller {
-  height: 570px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  position: relative;
   border: 2px solid #ddd;
+  padding: 0;
+  min-height: 580px;
 
   h2 {
-    margin-top: 1rem;
+    margin-top: .5rem;
     font-size: 1.3rem;
   }
 
@@ -796,14 +817,84 @@ footer {
   }
 
   section {
-    scroll-snap-align: start;
-    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
     padding: 10px;
+    /* prevent hidden slides being clicked/tabbed */
+
+    &.active {
+      opacity: 1;
+      position: relative;
+      /* active slide takes up space, setting container height */
+      pointer-events: auto;
+    }
 
     img {
       height: auto;
     }
   }
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem 0 2rem;
+  gap: 1.5rem;
+}
+
+@media (max-width: 450px) {
+  .scroller h2 {
+    margin-top: 1.25rem;
+  }
+
+  .carousel-nav {
+    gap: 0.75rem;
+  }
+}
+
+.carousel-arrow {
+  background: var(--dark-green);
+  border: 0px solid #ccc;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.carousel-arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: relative;
+  top: 8px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--yellow);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.carousel-dot.active {
+  background: var(--dark-green);
 }
 
 /* -----------------------------------------------------------
@@ -899,8 +990,10 @@ footer {
 }
 
 .circle-list ol {
-  list-style: none; /* Remove default numbers */
-  counter-reset: item; /* Create counter */
+  list-style: none;
+  /* Remove default numbers */
+  counter-reset: item;
+  /* Create counter */
   padding-left: 2rem;
 }
 
@@ -908,7 +1001,8 @@ footer {
   counter-increment: item;
   margin: 10px 0;
   display: flex;
-  align-items: flex-start; /* top-align for wrapped lines */
+  align-items: flex-start;
+  /* top-align for wrapped lines */
 }
 
 .circle-list li::before {

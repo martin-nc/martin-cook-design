@@ -23,14 +23,15 @@ import kings2 from "../assets/kings2.jpg";
 import turing from "../assets/turing-archive.jpg";
 import suffolk from "../assets/suffolk-wills.jpg";
 import girton from "../assets/girton.jpg";
+import gdi from "../assets/gdi.jpg";
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout pageTitle={pageTitle} description={description}>
   <h2>Examples of web development</h2>
-  <p>Flick, scroll or use the arrow key to browse the examples.</p>
+  <p>Swipe sideways or click through the carousel of examples.</p>
   <article class="scroller">
-    <section>
+    <section class="active">
       <Picture
         src={suffolk}
         alt="The Suffolk Wills website, with a map of Suffolk on it"
@@ -42,16 +43,33 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Suffolk Wills</h2>
-        <p class="text-grey mt-1">1 of 13</p>
         <p class="mb-0">
-          In beta at the moment, but <a href="https://suffolkwills.org">live</a>. I digitised wills from sixteenth-century Suffolk, created a data schema to describe them, and analysed them to see how they changed over time and what they tell us about the culture of this period.
+          In <a href="https://suffolkwills.org">suffolkwills.org</a> I digitised wills
+          from sixteenth-century Suffolk, created a data schema to describe them,
+          and analysed them to see how they changed from the pre- to post-Reformation
+          period. See <a
+            href="https://churchmonumentssociety.org/2026/06/13/using-wills-to-study-monuments-and-burial-suffolkwills-org"
+            >the article</a
+          > about the site.
         </p>
       </div>
     </section>
     <section>
       <Picture
         src={gbc}
-        alt="The Global Biodata Coalition website, with an image of lines connecting dots"
+        alt="
+            The
+            Global
+            Biodata
+            Coalition
+            website,
+            with
+            an
+            image
+            of
+            lines
+            connecting
+            dots"
         layout="constrained"
         width={550}
         formats={["jpeg", "webp"]}
@@ -60,7 +78,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Global Biodata Coalition</h2>
-        <p class="text-grey mt-1">2 of 13</p>
         <p class="mb-0">
           I created a new theme (code base) for the existing design. The
           previous theme was not accessible and the content providers found it
@@ -81,9 +98,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>ELIXIR Europe</h2>
-        <p class="text-grey mt-1">3 of 13</p>
         <p class="mb-0">
-          ELIXR Europe is a project that aims to make it easier to find, share
+          ELIXIR Europe is a project that aims to make it easier to find, share
           and analyse life science data across Europe. It is funded by the
           European Union and operates across 21 countries. I worked there from
           2015 to 2024, and looked after this main website.
@@ -102,7 +118,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2 class="mt-2">ELIXIR Europe</h2>
-        <p class="text-grey mt-1">4 of 13</p>
         <p class="mb-0">
           The bottom half of the ELIXIR Europe home page, which has changed a
           bit since I left. The site ran on Drupal and featured an intranet,
@@ -123,7 +138,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>ELIXIR Europe</h2>
-        <p class="text-grey mt-1">5 of 13</p>
         <p class="mb-0">
           The first redesign I did of the ELIXIR Europe website. A Twitter feed
           was in the grey box to the right. This screenshot was from early on in
@@ -143,7 +157,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>BioHackathon Europe</h2>
-        <p class="text-grey mt-1">6 of 13</p>
         <p>
           A site for an annual event that brought software developers, trainers
           and bioinformaticians across Europe together to develop life science
@@ -154,8 +167,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </section>
     <section>
       <Picture
+        src={gdi}
+        alt="The home page of the Genomic Data Infrastructure (GDI) website."
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Genomic Data Infrastructure (GDI)</h2>
+        <p>
+          I was given the brand (logo and colour scheme), and I designed and
+          made the site based on that. I also wrote the copy on the page.
+        </p>
+      </div>
+    </section>
+    <section>
+      <Picture
         src={rdmkit}
-        alt="The RDMkit website wth boxes for navigation"
+        alt="The RDMkit website with boxes for navigation"
         layout="constrained"
         width={550}
         formats={["jpeg", "webp"]}
@@ -164,7 +195,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>RDMkit</h2>
-        <p class="mt-1 text-grey">7 of 13</p>
         <p class="mb-0">
           A community-driven site that gives advice about data management to
           life scientists. I wasn't the developer on this site but was on the
@@ -186,7 +216,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>BY-COVID</h2>
-        <p class="mt-1 text-grey">8 of 13</p>
         <p class="mb-0">
           This was a European Commission-funded project that aimed to make
           infectious disease data easier to deposit and find. This would allow
@@ -208,7 +237,6 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Infectious Diseases Toolkit (IDTk)</h2>
-        <p class="mt-1 text-grey">9 of 13</p>
         <p class="mb-0">
           This is a project like RDMkit, and again hosted on GitHub. It gave
           guidance for anyone in life or social science who dealt with
@@ -229,8 +257,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         loading="lazy"
       />
       <div>
-        <h21>King's College, Cambridge</h21>
-        <p class="mt-1 text-grey">10 of 13</p>
+        <h2>King's College, Cambridge</h2>
         <p class="mb-0">
           I ran the King's College, Cambridge website from 2008-15. I moved it
           to Drupal and redesigned it twice. I developed an intranet and a High
@@ -251,10 +278,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>King's College Archives</h2>
-        <p class="mt-1 text-grey">11 of 13</p>
         <p class="mb-0">
           I made some sub-brands whilst at King's. This one was for a guide to
-          the college archives. I also create a shop and a sub-brand for the
+          the college archives. I also created a shop and a sub-brand for the
           conference and dining department.
         </p>
       </div>
@@ -271,14 +297,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>Turing Digital Archive</h2>
-        <p class="text-grey mt-1">12 of 13</p>
         <p class="mb-0">
           A PHP/MySQL-based site where you could search images of Turing's
           documents held in the King's College archives (Turing was a fellow at
           King's). The search integrated with Zoomify, an image viewer that
           allowed you to pan around and zoom into an image. The site was made in
-          2013. Apologies for the blurry screenshot. It's the only one I could
-          get.
+          2013.
         </p>
       </div>
     </section>
@@ -294,17 +318,138 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       />
       <div>
         <h2>University and Life Experience</h2>
-        <p class="text-grey mt-1">13 of 13</p>
         <p class="mb-0">
           This was a project at Girton College, Cambridge, that looked at the
           experiences of the first women to graduate from Cambridge. It was a
           custom PHP/MySQL application where you could search information about
-          the backgrounds and lives of these women. It was finished in 2015, but
-          sadly never went live.
+          the backgrounds and lives of these women. It was finished in 2015.
         </p>
       </div>
     </section>
   </article>
+  <div class="carousel-nav">
+    <button class="carousel-arrow" id="prevBtn" aria-label="Previous"><</button>
+    <div class="carousel-dots" id="dots"></div>
+    <button class="carousel-arrow" id="nextBtn" aria-label="Next">></button>
+  </div>
+
+  <script>
+    const scroller = document.querySelector<HTMLElement>(".scroller");
+    const prevBtn = document.getElementById(
+      "prevBtn",
+    ) as HTMLButtonElement | null;
+    const nextBtn = document.getElementById(
+      "nextBtn",
+    ) as HTMLButtonElement | null;
+    const dotsContainer = document.getElementById("dots");
+
+    if (scroller && prevBtn && nextBtn && dotsContainer) {
+      initCarousel(scroller, prevBtn, nextBtn, dotsContainer);
+    }
+
+    function initCarousel(
+      scroller: HTMLElement,
+      prevBtn: HTMLButtonElement,
+      nextBtn: HTMLButtonElement,
+      dotsContainer: HTMLElement,
+    ) {
+      const sections = [...scroller.querySelectorAll<HTMLElement>("section")];
+      const dots: HTMLButtonElement[] = [];
+      let current = 0;
+
+      // ARIA setup
+      scroller.setAttribute("role", "region");
+      scroller.setAttribute("aria-roledescription", "carousel");
+      scroller.setAttribute("aria-label", "Examples of web development");
+      scroller.setAttribute("tabindex", "0");
+
+      sections.forEach((sec, i) => {
+        sec.setAttribute("role", "group");
+        sec.setAttribute("aria-roledescription", "slide");
+        sec.setAttribute("aria-label", `${i + 1} of ${sections.length}`);
+        sec.setAttribute("aria-hidden", i === 0 ? "false" : "true");
+      });
+
+      // Build dots
+      sections.forEach((_, i) => {
+        const dot = document.createElement("button");
+        dot.className = "carousel-dot" + (i === 0 ? " active" : "");
+        dot.setAttribute(
+          "aria-label",
+          `Go to slide ${i + 1} of ${sections.length}`,
+        );
+        dot.addEventListener("click", () => goTo(i));
+        dotsContainer.appendChild(dot);
+        dots.push(dot);
+      });
+
+      function goTo(index: number) {
+        sections[current].classList.remove("active");
+        sections[current].setAttribute("aria-hidden", "true");
+        dots[current].classList.remove("active");
+
+        current = index;
+
+        sections[current].classList.add("active");
+        sections[current].setAttribute("aria-hidden", "false");
+        dots[current].classList.add("active");
+
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current === sections.length - 1;
+        dots[current].setAttribute("aria-current", "true");
+        dots.forEach((d, i) => {
+          if (i !== current) d.removeAttribute("aria-current");
+        });
+      }
+
+      prevBtn.addEventListener("click", () => current > 0 && goTo(current - 1));
+      nextBtn.addEventListener(
+        "click",
+        () => current < sections.length - 1 && goTo(current + 1),
+      );
+
+      // Keyboard support
+      scroller.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" && current < sections.length - 1) {
+          e.preventDefault();
+          goTo(current + 1);
+        } else if (e.key === "ArrowLeft" && current > 0) {
+          e.preventDefault();
+          goTo(current - 1);
+        }
+      });
+
+      // Swipe support
+      let touchStartX = 0;
+
+      scroller.addEventListener(
+        "touchstart",
+        (e) => {
+          touchStartX = e.touches[0].clientX;
+        },
+        { passive: true },
+      );
+
+      scroller.addEventListener(
+        "touchend",
+        (e) => {
+          const diff = touchStartX - e.changedTouches[0].clientX;
+          const threshold = 50; // minimum px swipe distance to count
+
+          if (Math.abs(diff) < threshold) return;
+
+          if (diff > 0 && current < sections.length - 1) {
+            goTo(current + 1); // swiped left → next
+          } else if (diff < 0 && current > 0) {
+            goTo(current - 1); // swiped right → prev
+          }
+        },
+        { passive: true },
+      );
+
+      prevBtn.disabled = true;
+    }
+  </script>
   <p class="mt-3">
     I've also created a <strong
       ><a
@@ -493,12 +638,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </li>
     <li>
       <strong>Legal and security aspects:</strong> I've been responsible for ensuring
-      accessibility, privacy and copyright regulations are met. I've also been responsibe
+      accessibility, privacy and copyright regulations are met. I've also been responsible
       for the website and server security.
     </li>
     <li>
-      <strong>Server maintenance:</strong> I make no claims to be a server admin,
-      but occasionally I have had to maintain servers myself. These were Apache on
+      <strong>Server maintenance:</strong> I have maintened servers with Apache on
       CentOS and Debian.
     </li>
     <li>
@@ -555,7 +699,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </div>
   <h2>Qualifications</h2>
   <ul>
-    <li>Msc Neuroscience</li>
+    <li>MSc Neuroscience</li>
     <li>BSc Psychology</li>
     <li>CTEFLA (Certificate for Teaching English as a Foreign Language)</li>
     <li>Diploma in Art and Design</li>
