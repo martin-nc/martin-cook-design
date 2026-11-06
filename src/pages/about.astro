@@ -11,6 +11,7 @@ import biohackathoneurope from "../assets/biohackathon-europe.jpg";
 import brainstorm1 from "../assets/brainstorm1.jpg";
 import brainstorm2 from "../assets/brainstorm2.jpg";
 import gbc from "../assets/gbc.jpg";
+import dataoffice from "../assets/data-office.jpg";
 import elixir1 from "../assets/elixir1.jpg";
 import elixir2 from "../assets/elixir2.jpg";
 import elixir2b from "../assets/elixir2b.jpg";
@@ -32,6 +33,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   <p>Swipe sideways or click through the carousel of examples.</p>
   <article class="scroller">
     <section class="active">
+      <Picture
+        src={dataoffice}
+        alt="The Suffolk Wills website, with a map of Suffolk on it"
+        layout="constrained"
+        width={550}
+        formats={["jpeg", "webp"]}
+        class="border float-left"
+        loading="lazy"
+      />
+      <div>
+        <h2>Data Office, University of Cambridge</h2>
+        <p class="mb-0">
+          A SharePoint intranet site I made for the University's Data Office,
+          which included PowerApps to deliver dynamic content. Note that to
+          protect the privacy of the University I have replaced the text and
+          images in the News section of the screenshot.
+        </p>
+      </div>
+    </section>
+    <section>
       <Picture
         src={suffolk}
         alt="The Suffolk Wills website, with a map of Suffolk on it"
